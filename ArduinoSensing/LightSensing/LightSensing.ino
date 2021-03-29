@@ -7,22 +7,33 @@ int lightVal;
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-//  Serial.println(now());
+  setTime(0);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
   lightVal = analogRead(sensorPin);
-  if (lightVal >= 10) {
-    Serial.println("Activated =>");
-    Serial.println("Start: " + now());
+  if (lightVal >= 40) {
+    printTimeStamp("Activated => Start: ");
     unsigned long start = millis();
-    while (lightVal >= 10) {
+    while (lightVal >= 40) {
       lightVal = analogRead(sensorPin);
+      delay(10);
     }
     unsigned long diff = millis()-start;
-    Serial.println("End: " + now());
-    Serial.println("Milliseconds Elapsed: " + diff);
+    printTimeStamp(", End: ");
+    Serial.print(" => Milliseconds Elapsed: ");
+    Serial.println(diff);
   }
+  
   delay(200);
+}
+
+void printTimeStamp(const char* status) {
+  Serial.print(status);
+  Serial.print(hour());
+  Serial.print(":");
+  Serial.print(minute());
+  Serial.print(":");
+  Serial.print(second());
 }
