@@ -1,39 +1,31 @@
-// https://github.com/PaulStoffregen/Time
-#include <TimeLib.h>
+#define ON 1
+#define OFF 0
 
 int sensorPin = 5;
 int lightVal;
+int threshold = 40;
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  setTime(0);
 }
 
 void loop() {
   // put your main code here, to run repeatedly:
   lightVal = analogRead(sensorPin);
-  if (lightVal >= 40) {
-    printTimeStamp("Activated => Start: ");
+  if (lightVal >= threshold) {
+    Serial.println(ON);
+    
     unsigned long start = millis();
-    while (lightVal >= 40) {
+    while (lightVal >= threshold) {
       lightVal = analogRead(sensorPin);
-      delay(10);
+      delay(5);
     }
+    
     unsigned long diff = millis()-start;
-    printTimeStamp(", End: ");
-    Serial.print(" => Milliseconds Elapsed: ");
+    Serial.println(OFF);
     Serial.println(diff);
   }
   
   delay(200);
-}
-
-void printTimeStamp(const char* status) {
-  Serial.print(status);
-  Serial.print(hour());
-  Serial.print(":");
-  Serial.print(minute());
-  Serial.print(":");
-  Serial.print(second());
 }
