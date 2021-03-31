@@ -3,11 +3,12 @@
 
 int sensorPin = 5;
 int lightVal;
-int threshold = 40;
+int threshold;
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
+  threshold = analogRead(sensorPin)+10;
 }
 
 void loop() {
