@@ -14,7 +14,7 @@ sample_count = 5;
 
 # Put own path for 'port' argument
 # Current wait for response from iot device is 5 seconds
-arduino = serial.Serial(port='/dev/cu.usbserial-145220', timeout=5.0, baudrate='9600')
+arduino = serial.Serial(port='/dev/ttyUSB0', timeout=5.0, baudrate='9600')
 print(datetime.datetime.now())
 
 def log(sound):
@@ -50,7 +50,7 @@ def log(sound):
         # We want to set timeout back to 5 seconds since we want to play next noise
         arduino.timeout = 5.0
     else:
-        print("No Activation")
+        print("No Activation \n")
         logged_data.append([sound, None, None, None])
 
 i = 0
