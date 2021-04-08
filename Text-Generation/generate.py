@@ -9,6 +9,11 @@ import pyglet
 pyglet.options["audio"] = ("pulse",)
 
 
+def get_defaults(parser):
+    args = parser.parse_args()
+    return {key: parser.get_default(key) for key in vars(args)}
+
+
 def get_arg_parser():
     import argparse
     
