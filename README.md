@@ -1,11 +1,21 @@
 # Speaker-Misactivations
+## Setup & Requirements
+Python requirements can be installed for everything via
+```shell
+pip3 install -r requirements.txt
+```
 ## Light Sensing
-### Setup
-Install the following python packages by running:
-
-    pip3 install pyserial 
 ### Run
+Upload the Arduino logging code (in [LightSensing](LightSensing)) to the arduino. Then run:
+```shell
+python3 detection/light.py test.csv
+```
 
-Upload the Arduino logging code to the arduino. Then go to ArduinoSensing and run:
+## Generation
+### Most Common Words
+Run 
+```shell
+python3 generate/common_words.py 
+```
 
-    python3 main.py test.csv
+There may be an issue with the libffi-dev library (related to pyglet, used for playing audio).
