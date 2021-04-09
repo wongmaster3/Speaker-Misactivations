@@ -1,11 +1,12 @@
+import argparse
 import io
 import time
-
 from itertools import chain, islice, product, tee
-
-from gtts import gTTS
+import pandas as pd
 
 import pyglet
+from gtts import gTTS
+
 pyglet.options["audio"] = ("pulse",)
 
 
@@ -14,10 +15,8 @@ def get_defaults(parser):
     return {key: parser.get_default(key) for key in vars(args)}
 
 
-def get_arg_parser():
-    import argparse
-    
-    parser = argparse.ArgumentParser('Generate and play a sequence of spoken audio.')
+def get_generation_arg_parser():
+    parser = argparse.ArgumentParser(description='Generate and play a sequence of spoken audio.')
     parser.add_argument('--filename', '-f', default='./cache/google-10000-english-no-swears.txt',
                         help='path to text file containing text per line')
     parser.add_argument('--lang', default='en',
@@ -56,8 +55,8 @@ def speech(text, lang='en', tld='com'):
 
 def generate_multiple(config):
     seq1, seq2 = tee(common_words(config.filename), 2)
-    first_sequence = islice(((line,) for line in seq1), config.start, None)
-    remaining_sequences = product(islice(seq2, config.end), repeat=config.repeat - 1)
+    first_sequence = islice(((line,) for line in seq1), config.start, config.end)
+    remaining_sequences = product(islice(seq2, config.start, config.end), repeat=config.repeat)
     full_sequence = chain(first_sequence, remaining_sequences)
     
     for word, in full_sequence:
@@ -66,7 +65,7 @@ def generate_multiple(config):
 
 
 if __name__ == '__main__':
-    config = get_arg_parser().parse_args()
+    config = get_generation_arg_parser().parse_args()
     
     generate_multiple(config)
 

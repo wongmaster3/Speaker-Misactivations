@@ -10,12 +10,13 @@ output_file = sys.argv[1]
 logged_data = []
 
 # Number of samples we are taking
-sample_count = 5;
+sample_count = 5
 
 # Put own path for 'port' argument
 # Current wait for response from iot device is 5 seconds
 arduino = serial.Serial(port='/dev/ttyUSB0', timeout=5.0, baudrate='9600')
 print(datetime.datetime.now())
+
 
 def log(sound):
     # Play sound here
@@ -53,10 +54,12 @@ def log(sound):
         print("No Activation \n")
         logged_data.append([sound, None, None, None])
 
-i = 0
-while arduino.isOpen() and sample_count > i:
-    log('haha')
-    i += 1
 
-df = pd.DataFrame(logged_data, columns = ['sound', 'start', 'end', 'elapsed_time'])
-df.to_csv(output_file, index=False)
+if __name__ == '__main__':
+    i = 0
+    while arduino.isOpen() and sample_count > i:
+        log('haha')
+        i += 1
+    
+    df = pd.DataFrame(logged_data, columns = ['sound', 'start', 'end', 'elapsed_time'])
+    df.to_csv(output_file, index=False)
