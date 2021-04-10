@@ -3,6 +3,7 @@ import numpy as np
 import os
 import pydub
 import simpleaudio as sa
+import time
 
 
 def get_play_parser():
@@ -35,6 +36,13 @@ if __name__ == '__main__':
     for filename in filenames:
         filepath = os.path.join(root, filename)
         bitrate, audio = read(filepath)
+        
+        start_time = time.time()
         play_array(audio, bitrate)
+        end_time = time.time()
+        
+        text = filename.split('.')[0]
+        print(f'{text},{start_time},{end_time}')
+
 
 
