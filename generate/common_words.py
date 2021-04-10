@@ -1,13 +1,8 @@
 import argparse
-import io
 import time
 from itertools import chain, islice, product, tee
-import pandas as pd
 
-import pyglet
 from gtts import gTTS
-
-pyglet.options["audio"] = ("pulse",)
 
 
 def get_defaults(parser):
@@ -29,7 +24,7 @@ def get_generation_arg_parser():
                         help='index to start playing the sequence at')
     parser.add_argument('--end', type=int, default=None,
                         help='index to stop playing segments')
-    parser.add_argument('--delay', '-d', type=float, default=0.0,
+    parser.add_argument('--delay', '-d', type=float, default=3.0,
                         help='(additional) delay (in seconds) between playing each segment')
     
     return parser
@@ -43,14 +38,8 @@ def common_words(filename='./cache/google-10000-english-no-swears.txt'):
 
 
 def speech(text, lang='en', tld='com'):
-    with io.BytesIO() as f:
-        gTTS(text=text, lang=lang, tld=tld).write_to_fp(f)
-        f.seek(0)
-
-        player = pyglet.media.load('_.mp3', file=f).play()
-        while player.playing:
-            pyglet.app.platform_event_loop.dispatch_posted_events()
-            pyglet.clock.tick()
+    tts_request = gTTS(text=text, lang=lang, tld=tld)
+    tts_request.save(f'temp/common-{lang}.{tld}/{text}.mp3')
 
 
 def generate_multiple(config):

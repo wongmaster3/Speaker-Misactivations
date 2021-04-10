@@ -140,3 +140,6 @@ cython_debug/
 
 # IDE related
 .idea/
+
+# project
+temp/
