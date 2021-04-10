@@ -23,11 +23,8 @@ void loop() {
       delay(5);
     }
 
-    unsigned long diff = millis()-start;
     Serial.println(OFF);
-    Serial.println(diff);
   }
 
   delay(200);
 }
-

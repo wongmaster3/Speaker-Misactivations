@@ -19,3 +19,11 @@ python3 generate/common_words.py
 ```
 
 There may be an issue with the libffi-dev library (related to pyglet, used for playing audio).
+
+### Main Program
+Run
+```shell
+python3 main.py <mp3_dir>
+```
+
+'mp3_dir' will contain the word files that will be played. Should also put 'mp3_dir' in same directory as 'main.py'.
