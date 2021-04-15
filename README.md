@@ -20,7 +20,7 @@ python3 generate/common_words.py
 
 There may be an issue with the libffi-dev library (related to pyglet, used for playing audio).
 
-### Main Program
+## Main Program
 1. Change line 6 (serial port) in
 ```shell
 ./detection/light.py
