@@ -7,6 +7,10 @@ import simpleaudio as sa
 def get_play_parser():
     parser = argparse.ArgumentParser(description='Play audio from a directory')
     parser.add_argument('dir', help='source directory of audio files')
+    parser.add_argument('--device_name', '-n', default='output',
+                        help='(additional) delay (in seconds) between playing each segment')
+    parser.add_argument('--delay', '-d', type=float, default=1.0,
+                        help='(additional) delay (in seconds) between playing each segment')
 
     return parser
 
