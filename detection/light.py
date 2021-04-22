@@ -6,7 +6,7 @@ time_out = 1.0
 
 # Put own path for 'port' argument
 # Current wait for response from iot device is 5 seconds
-arduino = serial.Serial(port='/dev/cu.usbserial-141220', timeout=time_out, baudrate='9600')
+arduino = serial.Serial(port='/dev/ttyACM0', timeout=time_out, baudrate='9600')
 
 def log(filename, play_audio_func, audio, bitrate):
     text = filename.split('.')[0]
