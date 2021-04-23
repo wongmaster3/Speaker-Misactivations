@@ -2,8 +2,6 @@ import argparse
 import time
 from itertools import chain, islice, product, tee
 
-from gtts import gTTS
-
 
 def get_defaults(parser):
     args = parser.parse_args()
@@ -38,6 +36,8 @@ def common_words(filename='./cache/google-10000-english-no-swears.txt'):
 
 
 def speech(text, lang='en', tld='com'):
+    from gtts import gTTS
+    
     tts_request = gTTS(text=text, lang=lang, tld=tld)
     tts_request.save(f'temp/common-{lang}.{tld}/{text}.mp3')
 

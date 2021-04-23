@@ -1,20 +1,27 @@
 from multiprocessing import Process, Manager, Value
 import os
-import time
 from generate.play_audio import *
 from detection.light import *
+
+
+def get_main_parser():
+    parser = argparse.ArgumentParser(description='Play and log audio--everything.')
+    
+    return parser
+
 
 config = get_play_parser().parse_args()
 delay_between_words = config.delay
 
+
 def log_activations(generation_active_state):
-    light_file = open("./logs/" + config.device_name.lower() + "_light_activations.csv", "w")
-    light_file.write('start_time,end_time\n')
-
+    detector = LightDetection(config.device_name.lower())
+    
     while generation_active_state.value == 1:
-        log(light_file)
+        detector.log()
+    
+    detector.close()
 
-    light_file.close()
 
 def generate_audio(generation_active_state):
     word_file = open("./logs/" + config.device_name.lower() + "_word_generations.csv", "w")
@@ -36,6 +43,7 @@ def generate_audio(generation_active_state):
     # Close files after logging everything
     word_file.close()
     generation_active_state.value = 0
+
 
 if __name__ == '__main__':
     # Generation flag

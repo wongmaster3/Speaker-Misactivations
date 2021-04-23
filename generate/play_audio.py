@@ -4,6 +4,11 @@ import pydub
 import simpleaudio as sa
 
 
+class AudioPlayer:
+    def __init__(self):
+        pass
+
+
 def get_play_parser():
     parser = argparse.ArgumentParser(description='Play audio from a directory')
     parser.add_argument('dir', help='source directory of audio files')
@@ -14,8 +19,9 @@ def get_play_parser():
 
     return parser
 
+
 def read(f, normalized=False):
-    """MP3 to numpy array"""
+    """MP3 filename to numpy array"""
     a = pydub.AudioSegment.from_mp3(f)
     y = np.array(a.get_array_of_samples())
     if a.channels == 2:
