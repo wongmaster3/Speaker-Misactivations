@@ -1,13 +1,6 @@
 from multiprocessing import Process, Manager, Value
-import os
 from generate.play_audio import *
 from detection.light import *
-
-
-def get_main_parser():
-    parser = argparse.ArgumentParser(description='Play and log audio--everything.')
-    
-    return parser
 
 
 config = get_play_parser().parse_args()
@@ -18,9 +11,15 @@ def log_activations(generation_active_state):
     detector = LightDetection(config.device_name.lower())
     
     while generation_active_state.value == 1:
+        
         detector.log()
     
     detector.close()
+
+
+def words_ordered(file='cache/google-10000-english-no-swears.txt'):
+    with open(file) as f:
+        return filter(line.strip() for line in f.readlines())
 
 
 def generate_audio(generation_active_state):
@@ -28,17 +27,20 @@ def generate_audio(generation_active_state):
     word_file.write('word,start_time,end_time\n')
 
     root, _, filenames = next(os.walk(config.dir))
-    for filename in filenames:
-        filepath = os.path.join(root, filename)
-        bitrate, audio = read(filepath)
+    filenames = frozenset(filenames)
+    for word in words_ordered():
+        filename = f'{word}.mp3'
         
-        # Play sound here
-        text = filename.split('.')[0]
-        start_time = str(time.time())
-        play_array(audio, bitrate)
-        end_time = str(time.time())
-        word_file.write(f'{text},{start_time},{end_time}\n')
-        time.sleep(delay_between_words)
+        if filename in filenames:
+            filepath = os.path.join(root, filename)
+            bitrate, audio = read(filepath)
+            
+            # Play sound here
+            start_time = str(time.time())
+            play_array(audio, bitrate)
+            end_time = str(time.time())
+            word_file.write(f'{word},{start_time},{end_time}\n')
+            time.sleep(delay_between_words)
     
     # Close files after logging everything
     word_file.close()
