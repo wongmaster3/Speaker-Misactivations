@@ -1,7 +1,7 @@
 from multiprocessing import Process, Manager, Value
 from generate.play_audio import *
 from detection.light import *
-
+import random
 
 config = get_play_parser().parse_args()
 delay_between_words = config.delay
@@ -18,8 +18,14 @@ def log_activations(generation_active_state):
 
 
 def words_ordered(file='cache/google-10000-english-no-swears.txt'):
+    triggers = ['ok_google.mp3', 'hey_alexa.mp3', 'hey_siri.mp3']
+    
     with open(file) as f:
-        return filter(line.strip() for line in f.readlines())
+        for num, line in enumerate(f):
+            yield line.strip()
+            
+            if num % 50 == 0:
+                yield random.choice(triggers)
 
 
 def generate_audio(generation_active_state):
@@ -56,3 +62,4 @@ if __name__ == '__main__':
     p2.start()
     p1.join()
     p2.join()
+
