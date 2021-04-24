@@ -18,7 +18,7 @@ def log_activations(generation_active_state):
 
 
 def words_ordered(file='cache/google-10000-english-no-swears.txt'):
-    triggers = ['ok_google.mp3', 'hey_alexa.mp3', 'hey_siri.mp3']
+    triggers = ['ok_google', 'hey_alexa', 'hey_siri']
     
     with open(file) as f:
         for num, line in enumerate(f):
