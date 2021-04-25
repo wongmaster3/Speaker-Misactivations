@@ -22,19 +22,21 @@ class LightDetection:
         # file heading
         self.output_file.write('start_time,end_time\n')
     
-    def log(self):
-        # Check if iot device activates on sound within 5 seconds
+    def log(self, logging_active_state):
+        # Check if iot device activates on sound within 0.1 seconds
         # If it does, then log it or else do nothing
         on_state = str(self.arduino.readline())
         if on_state[1:] != "''":
+            logging_active_state.value = 1
             self.arduino.timeout = None
             start_time = str(time.time())
             off_state = str(self.arduino.readline())
             end_time = str(time.time())
             self.arduino.timeout = LightDetection.time_out
+            logging_active_state.value = 0
         
             self.output_file.write(f'{start_time},{end_time}\n')
-    
+
     def close(self):
         if self.output_file:
             self.output_file.close()

@@ -7,12 +7,12 @@ config = get_play_parser().parse_args()
 delay_between_words = config.delay
 
 
-def log_activations(generation_active_state):
+def log_activations(generation_active_state, logging_active_state):
     detector = LightDetection(config.device_name.lower())
     
     while generation_active_state.value == 1:
         
-        detector.log()
+        detector.log(logging_active_state)
     
     detector.close()
 
@@ -28,7 +28,7 @@ def words_ordered(file='cache/google-10000-english-no-swears.txt'):
                 yield random.choice(triggers)
 
 
-def generate_audio(generation_active_state):
+def generate_audio(generation_active_state, logging_active_state):
     word_file = open("./logs/" + config.device_name.lower() + "_word_generations.csv", "w")
     word_file.write('word,start_time,end_time\n')
 
@@ -46,7 +46,14 @@ def generate_audio(generation_active_state):
             play_array(audio, bitrate)
             end_time = str(time.time())
             word_file.write(f'{word},{start_time},{end_time}\n')
+            # Need to wait in case light activation occurs during when the word is said
+            # We do not want process to keep saying words when light is activated 
+            while logging_active_state.value == 1:
+                time.sleep(0.1)
             time.sleep(delay_between_words)
+            # Need to wait in case light activation occurs after the delay between words
+            while logging_active_state.value == 1:
+                time.sleep(0.1)
     
     # Close files after logging everything
     word_file.close()
@@ -56,8 +63,9 @@ def generate_audio(generation_active_state):
 if __name__ == '__main__':
     # Generation flag
     generation_active_state = Value('i', 1)
-    p1 = Process(name='log', target=log_activations, args=(generation_active_state,))
-    p2 = Process(name='generate', target=generate_audio, args=(generation_active_state,))
+    logging_active_state = Value('i', 0)
+    p1 = Process(name='log', target=log_activations, args=(generation_active_state,logging_active_state,))
+    p2 = Process(name='generate', target=generate_audio, args=(generation_active_state,logging_active_state,))
     p1.start()
     p2.start()
     p1.join()
