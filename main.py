@@ -46,7 +46,7 @@ def generate_audio(generation_active_state, logging_active_state):
             play_array(audio, bitrate)
             end_time = str(time.time())
             word_file.write(f'{word},{start_time},{end_time}\n')
-            # Need to wait in case light activation occurs during when the word is said
+            # Need to wait in case light activation occurs during when the word is said or right after it
             # We do not want process to keep saying words when light is activated 
             while logging_active_state.value == 1:
                 time.sleep(0.1)

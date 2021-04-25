@@ -8,11 +8,11 @@ class Processor:
         parser.add_argument('--word_time', '-wt', help='the time csv of the words')
         parser.add_argument('--light_time', '-lt', help='the time csv of the light misactivations')
 
-        config = parser.parse_args()
+        self.config = parser.parse_args()
 
     def process():
-        word_time = open(config.word_time, mode='r')
-        light_time = open(config.light_time, mode='r')
+        word_time = open(self.config.word_time, mode='r')
+        light_time = open(self.config.light_time, mode='r')
 
         wt_reader = csv.DictReader(word_time)
         lt_reader = csv.DictReader(light_time)
@@ -21,17 +21,29 @@ class Processor:
 
         wt_index = 0
         for row in lt_reader:
-            lower_bound = row['start_time']
-            upper_bound = row['end_time']
+            light_activation_start_time = row['start_time']
+            light_activation_end_time = row['end_time']
 
             wt_start_time = wt_reader[wt_index]['start_time']
             wt_end_time = wt_reader[wt_index]['end_time']
-            while wt_index < len(wt_reader) and wt_end_time < lower_bound:
+            while wt_index < len(wt_reader) and light_activation_start_time >= wt_end_time:
                 wt_index += 1
-                wt_start_time = wt_reader[wt_index]['start_time']
-                wt_end_time = wt_reader[wt_index]['end_time']
+                if wt_index < len(wt_reader):
+                    wt_start_time = wt_reader[wt_index]['start_time']
+                    wt_end_time = wt_reader[wt_index]['end_time']
 
-            misactivated_words.append((wt_reader[wt_index-1]['word'], upper_bound-lower_bound))
+            # Check if start time of light activation occurred within the current word phrase or 
+            # if it was triggered after the previous word phrase
+            word = None
+            if light_activation_start_time < wt_start_time:
+                word = wt_reader[wt_index-1]['word']
+            else:
+                if wt_index < len(wt_reader):
+                    word = wt_reader[wt_index]['word']
+                else: 
+                    word = wt_reader[wt_index-1]['word']
+            
+            misactivated_words.append((word , light_activation_end_time-light_activation_start_time))
 
         return misactivated_words
 
