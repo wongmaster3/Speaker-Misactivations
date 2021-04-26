@@ -11,7 +11,6 @@ def log_activations(generation_active_state, logging_active_state):
     detector = LightDetection(config.device_name.lower())
     
     while generation_active_state.value == 1:
-        
         detector.log(logging_active_state)
     
     detector.close()
@@ -47,13 +46,13 @@ def generate_audio(generation_active_state, logging_active_state):
             end_time = str(time.time())
             word_file.write(f'{word},{start_time},{end_time}\n')
             # Need to wait in case light activation occurs during when the word is said or right after it
-            # We do not want process to keep saying words when light is activated 
+            # We do not want process to keep saying words when light is activated
             while logging_active_state.value == 1:
-                time.sleep(0.1)
+                time.sleep(1.0)
             time.sleep(delay_between_words)
             # Need to wait in case light activation occurs after the delay between words
             while logging_active_state.value == 1:
-                time.sleep(0.1)
+                time.sleep(1.0)
     
     # Close files after logging everything
     word_file.close()

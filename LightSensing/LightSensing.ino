@@ -1,14 +1,14 @@
 #define ON 1
 #define OFF 0
 
-int sensorPin = 5;
+int sensorPin = A5;
 int lightVal;
 int threshold;
 
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(9600);
-  threshold = analogRead(sensorPin)+10;
+  threshold = analogRead(sensorPin)+6;
 }
 
 void loop() {
@@ -17,14 +17,13 @@ void loop() {
   if (lightVal >= threshold) {
     Serial.println(ON);
 
-    unsigned long start = millis();
     while (lightVal >= threshold) {
       lightVal = analogRead(sensorPin);
-      delay(5);
+      delay(75);
     }
 
     Serial.println(OFF);
   }
 
-  delay(200);
+  delay(10);
 }

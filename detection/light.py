@@ -7,7 +7,7 @@ import time
 class LightDetection:
     time_out = 0.1
     
-    def __init__(self, name, port='/dev/ttyACM0'):
+    def __init__(self, name, port='/dev/ttyUSB0'):
         self.port = port
         self.arduino = serial.Serial(port=port,
                                      timeout=LightDetection.time_out,
@@ -17,7 +17,7 @@ class LightDetection:
         self.output_file = open(filename, 'w')
         
         # in case of interruption
-        atexit.register(self.close, self)
+        # atexit.register(self.close, self)
         
         # file heading
         self.output_file.write('start_time,end_time\n')
