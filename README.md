@@ -39,3 +39,9 @@ Logs will print out in the logs folder with the format
 <iot_device_name> + _light_activations.csv
 <iot_device_name> + _word_generations.csv
 ```
+
+## Process Script
+Run 
+```shell
+python3 processing/process.py -wt <word_time_file> -lt <light_time_file>
+```
