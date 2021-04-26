@@ -10,27 +10,27 @@ class Processor:
 
         self.config = parser.parse_args()
 
-    def process():
+    def process(self):
         word_time = open(self.config.word_time, mode='r')
         light_time = open(self.config.light_time, mode='r')
 
-        wt_reader = csv.DictReader(word_time)
-        lt_reader = csv.DictReader(light_time)
+        wt_reader = list(csv.DictReader(word_time))
+        lt_reader = list(csv.DictReader(light_time))
 
         misactivated_words = []
 
         wt_index = 0
         for row in lt_reader:
-            light_activation_start_time = row['start_time']
-            light_activation_end_time = row['end_time']
+            light_activation_start_time = float(row['start_time'])
+            light_activation_end_time = float(row['end_time'])
 
-            wt_start_time = wt_reader[wt_index]['start_time']
-            wt_end_time = wt_reader[wt_index]['end_time']
+            wt_start_time = float(wt_reader[wt_index]['start_time'])
+            wt_end_time = float(wt_reader[wt_index]['end_time'])
             while wt_index < len(wt_reader) and light_activation_start_time >= wt_end_time:
                 wt_index += 1
                 if wt_index < len(wt_reader):
-                    wt_start_time = wt_reader[wt_index]['start_time']
-                    wt_end_time = wt_reader[wt_index]['end_time']
+                    wt_start_time = float(wt_reader[wt_index]['start_time'])
+                    wt_end_time = float(wt_reader[wt_index]['end_time'])
 
             # Check if start time of light activation occurred within the current word phrase or 
             # if it was triggered after the previous word phrase
