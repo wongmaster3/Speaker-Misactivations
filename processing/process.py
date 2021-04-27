@@ -1,5 +1,6 @@
 import csv
 import argparse
+from collections import defaultdict
 
 
 class Processor: 
@@ -17,7 +18,7 @@ class Processor:
         wt_reader = list(csv.DictReader(word_time))
         lt_reader = list(csv.DictReader(light_time))
 
-        misactivated_words = []
+        misactivated_words = defaultdict(lambda: [])
 
         wt_index = 0
         for row in lt_reader:
@@ -43,7 +44,7 @@ class Processor:
                 else: 
                     word = wt_reader[wt_index-1]['word']
             
-            misactivated_words.append((word , light_activation_end_time-light_activation_start_time))
+            misactivated_words[word].append(light_activation_end_time-light_activation_start_time)
 
         return misactivated_words
 
