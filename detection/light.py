@@ -5,7 +5,7 @@ import time
 
 
 class LightDetection:
-    time_out = 0.1
+    time_out = 3.0
     
     def __init__(self, name, port='/dev/ttyUSB0'):
         self.port = port
