@@ -13,7 +13,7 @@ class LightDetection:
                                      timeout=LightDetection.time_out,
                                      baudrate='9600')
         
-        filename = os.path.join('logs', f'{name}_light_activations.csv')
+        filename = os.path.join('light_logs', f'{name}_light_activations.csv')
         self.output_file = open(filename, 'w')
         
         # in case of interruption

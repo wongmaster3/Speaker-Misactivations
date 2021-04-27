@@ -28,7 +28,7 @@ def words_ordered(file='cache/google-10000-english-no-swears.txt'):
 
 
 def generate_audio(generation_active_state, logging_active_state):
-    word_file = open("./logs/" + config.device_name.lower() + "_word_generations.csv", "w")
+    word_file = open("./light_logs/" + config.device_name.lower() + "_word_generations.csv", "w")
     word_file.write('word,start_time,end_time\n')
 
     root, _, filenames = next(os.walk(config.dir))
