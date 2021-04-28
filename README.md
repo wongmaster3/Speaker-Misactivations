@@ -32,7 +32,12 @@ to match the serial port of the Arduino on your machine.
 python3 main.py <mp3_dir> -n <iot_device_name> -d <delay>
 ```
 
-'mp3_dir' will contain the directory of the word files that will be played. 'delay' will contain the delay between each word played. 'iot_device_name' will contain the name of the iot device.
+'mp3_dir' will contain the directory of the word files that will be played. 'delay' will contain the delay between each word played. 'iot_device_name' will contain the name of the iot device, the experiment number, and the trial number. For example, if running experiment 1 and trial 2, the command will look like this:
+
+```shell
+python3 main.py data/common-en.com -n echo_1_2 -d 0.35
+```
+It seems like 0.35 seconds or higher is the best for recording misactivations. 
 
 Logs will print out in the logs folder with the format
 ```shell
