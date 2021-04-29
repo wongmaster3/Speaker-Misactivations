@@ -1,19 +1,30 @@
 import csv
 import argparse
+import os
 from collections import defaultdict
 
 
 class Processor: 
     def __init__(self):
         parser = argparse.ArgumentParser(description='Process audio and light misactivations')
-        parser.add_argument('--word_time', '-wt', help='the time csv of the words')
-        parser.add_argument('--light_time', '-lt', help='the time csv of the light misactivations')
+        parser.add_argument('--path', '-fp', help='the time csv of the words')
 
         self.config = parser.parse_args()
+        self.total_count_of_words = defaultdict(lambda: 0)
 
-    def process(self):
-        word_time = open(self.config.word_time, mode='r')
-        light_time = open(self.config.light_time, mode='r')
+    def get_parser(self):
+        return self.config
+
+    def pairwise(self, iterable):
+        a = iter(iterable)
+        return zip(a, a)
+
+    def get_total_count_of_words(self):
+        return self.total_count_of_words
+
+    def process(self, light, word):
+        word_time = open(word, mode='r')
+        light_time = open(light, mode='r')
 
         wt_reader = list(csv.DictReader(word_time))
         lt_reader = list(csv.DictReader(light_time))
@@ -44,11 +55,23 @@ class Processor:
                 else: 
                     word = wt_reader[wt_index-1]['word']
             
+            if (word not in misactivated_words) or (word in ['ok_google', 'hey_alexa', 'hey_siri']): 
+                self.total_count_of_words[word] += 1
             misactivated_words[word].append(light_activation_end_time-light_activation_start_time)
 
         return misactivated_words
 
 if __name__ == '__main__':
     processor = Processor()
-    processed_tuples = processor.process()
-    print(processed_tuples)
+    config = processor.get_parser()
+
+    dirpath, _, filenames = next(os.walk(config.path))
+    paired_files = processor.pairwise(sorted(filenames))
+
+    for light, word in paired_files:
+        light_path = os.path.join(dirpath, light)
+        word_path = os.path.join(dirpath, word)
+        processor.process(light_path, word_path)
+    
+    print(processor.get_total_count_of_words())
+        
