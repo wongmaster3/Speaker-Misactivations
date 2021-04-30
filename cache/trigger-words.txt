@@ -1,0 +1,3 @@
+ok google
+hey alexa
+hey siri
