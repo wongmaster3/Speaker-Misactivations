@@ -29,13 +29,13 @@ to match the serial port of the Arduino on your machine.
 
 2. Run
 ```shell
-python3 main.py <mp3_dir> -n <iot_device_name> -d <delay>
+python3 main.py <mp3_dir> -n <iot_device_name> -d <delay> -q
 ```
 
-'mp3_dir' will contain the directory of the word files that will be played. 'delay' will contain the delay between each word played. 'iot_device_name' will contain the name of the iot device, the experiment number, and the trial number. For example, if running experiment 1 and trial 2, the command will look like this:
+'mp3_dir' will contain the directory of the word files that will be played. 'delay' will contain the delay between each word played. 'iot_device_name' will contain the name of the iot device, the experiment number, and the trial number. The -q argument signifies whether or not you want to ask a question after a misactivation. If included, it will ask a random question in 'questions.txt' or else no question will be asked. If you want to ask a question, please set the delay to 0.4-0.5 seeconds or else the question might not be asked when the device is misactivated. For example, if running experiment 1 and trial 2 and asking questions, the command will look like this:
 
 ```shell
-python3 main.py data/common-en.com -n echo_1_2 -d 0.35
+python3 main.py data/common-en.com -n echo_1_2 -d 0.45 -q
 ```
 It seems like 0.35 seconds or higher is the best for recording misactivations. 
 
