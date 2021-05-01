@@ -48,10 +48,10 @@ Logs will print out in the logs folder with the format
 ## Process Script
 Run 
 ```shell
-python3 processing/process.py -fp <folder_to_experiment_csv_files>
+python3 processing/process.py -fp <folder_to_experiment_csv_files> -cn <company_name>
 ```
 
-The 'folder_to_experiment_csv_files' string will contain the file path to the experiments folder with the device name. For example,
+The 'folder_to_experiment_csv_files' string will contain the file path to the experiments folder with the device name. The 'company_name' will contain the company name of the iot device (amazon or google). For example,
 ```shell
-python3 processing/process.py -fp ./light_logs/echo/experiment_1
+python3 processing/process.py -fp ./light_logs/echo/experiment_1 -cn amazon
 ```
