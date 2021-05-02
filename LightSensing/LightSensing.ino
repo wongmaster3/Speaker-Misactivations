@@ -2,8 +2,8 @@
 #define OFF 0
 
 int sensorPin = A5;
-float lightVal;
-float threshold;
+int lightVal;
+int threshold;
 
 void setup() {
   // put your setup code here, to run once:
@@ -27,8 +27,8 @@ void loop() {
   delay(10);
 }
 
-float sample() {
-  float maximum = -1.0;
+int sample() {
+  int maximum = -1;
   int samples = 4;
   for (int i = 0; i < samples; i++) {
     int currentVal = analogRead(sensorPin);
