@@ -13,7 +13,7 @@ class LightDetection:
                                      timeout=LightDetection.time_out,
                                      baudrate='9600')
         
-        self.output_file = open(f"./light_logs/{experiment}/{name}_{experiment}_{trial_number}_light_activations.csv", "w")
+        self.output_file = open(f"./light_logs/{name}/{experiment}/{name}_{experiment}_{trial_number}_light_activations.csv", "w")
         
         # in case of interruption
         # atexit.register(self.close, self)
