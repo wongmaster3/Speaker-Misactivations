@@ -54,7 +54,7 @@ def generate_audio(generation_active_state, logging_active_state):
             
             # Delay before playing next word
             if word in trigger_words:
-                time.sleep(delay_between_words+0.25)
+                time.sleep(1.25)
             else:
                 time.sleep(delay_between_words)
             
@@ -73,7 +73,9 @@ def generate_audio(generation_active_state, logging_active_state):
                     play_array(audio, bitrate)
                     end_time = str(time.time())
                     word_file.write(f'{word},{start_time},{end_time}\n')
-            
+
+                    time.sleep(delay_between_words)
+                    
             # Need to wait in case light activation occurs in middle or after
             # the saying of the word
             while logging_active_state.value == 1:
