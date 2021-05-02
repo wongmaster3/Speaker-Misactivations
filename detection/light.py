@@ -7,14 +7,13 @@ import time
 class LightDetection:
     time_out = 3.0
     
-    def __init__(self, name, port='/dev/ttyUSB0'):
+    def __init__(self, name, experiment, trial_number, port='/dev/ttyUSB0'):
         self.port = port
         self.arduino = serial.Serial(port=port,
                                      timeout=LightDetection.time_out,
                                      baudrate='9600')
         
-        filename = os.path.join('light_logs', f'{name}_light_activations.csv')
-        self.output_file = open(filename, 'w')
+        self.output_file = open(f"./light_logs/{experiment}/{name}_{experiment}_{trial_number}_light_activations.csv", "w")
         
         # in case of interruption
         # atexit.register(self.close, self)

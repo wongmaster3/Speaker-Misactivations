@@ -6,10 +6,13 @@ import random
 config = get_play_parser().parse_args()
 delay_between_words = config.delay
 ask_questions = config.questions
+device_name = config.device_name.lower()
+experiment = config.experiment
+trial_number = config.trial
 
 
 def log_activations(generation_active_state, logging_active_state):
-    detector = LightDetection(config.device_name.lower())
+    detector = LightDetection(device_name, experiment, trial_number)
     
     while generation_active_state.value == 1:
         detector.log(logging_active_state)
@@ -29,12 +32,12 @@ def words_ordered(file='cache/google-10000-english-no-swears.txt'):
     
 
 def generate_audio(generation_active_state, logging_active_state):
-    word_file = open("./light_logs/" + config.device_name.lower() + "_word_generations.csv", "w")
+    word_file = open(f"./light_logs/{experiment}/{device_name}_{experiment}_{trial_number}_word_generations.csv", "w")
     word_file.write('word,start_time,end_time\n')
 
     root, _, filenames = next(os.walk(config.dir))
     filenames = frozenset(filenames)
-    trigger_words = frozenset(['ok_google', 'hey_alexa', 'hey_siri'])
+    trigger_word = 'hey_alexa' if device_name == 'echo' else 'ok_google' 
     questions = []
     for word in words_ordered('cache/questions.txt'):
         questions.append(word.replace(' ', '_'))
@@ -53,14 +56,14 @@ def generate_audio(generation_active_state, logging_active_state):
             word_file.write(f'{word},{start_time},{end_time}\n')
             
             # Delay before playing next word
-            if word in trigger_words:
-                time.sleep(1.25)
+            if word == trigger_word:
+                time.sleep(2.0)
             else:
                 time.sleep(delay_between_words)
             
             # Ask question to misactivated word
             if config.questions:
-                if logging_active_state.value == 1 and (word not in trigger_words):
+                if logging_active_state.value == 1 and (word != trigger_word):
                     # Ask question
                     question = random.choice(questions)
                     question_filename = f'{question}.mp3'
@@ -75,7 +78,6 @@ def generate_audio(generation_active_state, logging_active_state):
                     word_file.write(f'{word},{start_time},{end_time}\n')
 
                     time.sleep(delay_between_words)
-                    
             # Need to wait in case light activation occurs in middle or after
             # the saying of the word
             while logging_active_state.value == 1:

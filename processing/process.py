@@ -20,13 +20,46 @@ class Processor:
         a = iter(iterable)
         return zip(a, a)
 
-    def process(self, light, word):
+    def process_experiment(self):
+        dirpath, files, filenames = next(os.walk(self.config.path))
+        paired_files = self.pairwise(sorted(filenames))
+
+        trial_num = 1
+        merged_dictionary = {}
+        merged_observed = 0
+        merged_expected = 0
+        for light, word in paired_files:
+            light_path = os.path.join(dirpath, light)
+            word_path = os.path.join(dirpath, word)
+            # Dictionary of activated words with values as arrays of lengths of activations
+            (misactivated_words, trigger_activated_words, expected_valid_activation_count) = self.process_trial(light_path, word_path)
+            misactivated_words_count_dict = {k: len(v) for k, v in misactivated_words.items()}
+            observed_trigger_count = len(trigger_activated_words)
+            merged_dictionary = {k: merged_dictionary.get(k, 0) + misactivated_words_count_dict.get(k, 0) for k in set(merged_dictionary) | set(misactivated_words_count_dict)}
+            merged_observed += observed_trigger_count
+            merged_expected += expected_valid_activation_count
+            print("Trial #: " + str(trial_num))
+            print("# of Observed Trigger Word Activations: " + str(observed_trigger_count))
+            print("# of Expected Trigger Word Activations: " + str(expected_valid_activation_count))
+            print("Misactivation Counts: " + str(misactivated_words_count_dict))
+            print("Misactivation Times (seconds): " + str(misactivated_words))
+            print('\n')
+
+            trial_num += 1
+
+        print("# of Observed Trigger Word Activations for All Trials: " + str(merged_observed))
+        print("# of Expected Trigger Word Activations for All Trials: " + str(merged_expected))
+        print("All Misactivation Counts for All Trials: " + str(merged_dictionary))
+
+        
+    def process_trial(self, light, word):
         word_time = open(word, mode='r')
         light_time = open(light, mode='r')
 
         wt_reader = list(csv.DictReader(word_time))
         lt_reader = list(csv.DictReader(light_time))
 
+        trigger_activated_words = []
         misactivated_words = defaultdict(lambda: [])
 
         total_valid_activation_count = 0
@@ -69,47 +102,21 @@ class Processor:
             if prev_word != self.iot_keyword or (prev_word == self.iot_keyword and float(wt_reader[current_word_index]['start_time'])-float(wt_reader[prev_word_index]['end_time']) > 2.0):
             # Need to check if trigger word activated within same time frame since
                 if (last_added_word_index == None) or (last_added_word_index != current_word_index):
-                    misactivated_words[word].append(light_activation_end_time-light_activation_start_time)
+                    if word == self.iot_keyword:
+                        trigger_activated_words.append(light_activation_end_time-light_activation_start_time)
+                    else:
+                        misactivated_words[word].append(light_activation_end_time-light_activation_start_time)
                     last_added_word_index = current_word_index
                 else:
-                    time_lst = misactivated_words[word]
-                    time_lst[-1] += (light_activation_end_time-light_activation_start_time)
+                    if word == self.iot_keyword:
+                        trigger_activated_words[-1] += (light_activation_end_time-light_activation_start_time)
+                    else:
+                        time_lst = misactivated_words[word]
+                        time_lst[-1] += (light_activation_end_time-light_activation_start_time)
 
-        return (dict(misactivated_words), total_valid_activation_count)
+        return (dict(misactivated_words), trigger_activated_words, total_valid_activation_count)
 
 if __name__ == '__main__':
     processor = Processor()
-    config = processor.get_parser()
-
-    dirpath, files, filenames = next(os.walk(config.path))
-    paired_files = processor.pairwise(sorted(filenames))
-
-    trial_num = 1
-    merged_dictionary = {}
-    merged_observed = 0
-    merged_expected = 0
-    for light, word in paired_files:
-        light_path = os.path.join(dirpath, light)
-        word_path = os.path.join(dirpath, word)
-        # Dictionary of activated words with values as arrays of lengths of activations
-        output = processor.process(light_path, word_path)
-        count_dict = {k: len(v) for k, v in output[0].items()}
-        observed_trigger_count = len(output[0][processor.iot_keyword]) if processor.iot_keyword in output[0] else 0
-        merged_dictionary = {k: merged_dictionary.get(k, 0) + count_dict.get(k, 0) for k in set(merged_dictionary) | set(count_dict)}
-        merged_observed += observed_trigger_count
-        merged_expected += output[1]
-        print("Trial #: " + str(trial_num))
-        print("# of Observed Trigger Word Activations: " + str(observed_trigger_count))
-        print("# of Expected Trigger Word Activations: " + str(output[1]))
-        print("All Activation Counts: " + str(count_dict))
-        print("All Activation Times (seconds): " + str(output[0]))
-        print('\n')
-
-        trial_num += 1
-
-    print("# of Observed Trigger Word Activations for All Trials: " + str(merged_observed))
-    print("# of Expected Trigger Word Activations for All Trials: " + str(merged_expected))
-    print("All Activation Counts for All Trials: " + str(merged_dictionary))
-
-
+    processor.process_experiment()
     

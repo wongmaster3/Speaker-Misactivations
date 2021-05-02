@@ -16,9 +16,12 @@ def get_play_parser():
                         help='name of device under test')
     parser.add_argument('--delay', '-d', type=float, default=1.0,
                         help='(additional) delay (in seconds) between playing each segment')
+    parser.add_argument('--experiment', '-e', default='test',
+                    help='name of experiment')
+    parser.add_argument('--trial', '-t', type=int, default=1,
+                    help='trial number of experiment')
     parser.add_argument('--questions', '-q', action='store_true',
                     help='determine whether to ask questions or not after misactivation')
-                        
 
     return parser
 
