@@ -94,11 +94,12 @@ if __name__ == '__main__':
         # Dictionary of activated words with values as arrays of lengths of activations
         output = processor.process(light_path, word_path)
         count_dict = {k: len(v) for k, v in output[0].items()}
+        observed_trigger_count = len(output[0][processor.iot_keyword]) if processor.iot_keyword in output[0] else 0
         merged_dictionary = {k: merged_dictionary.get(k, 0) + count_dict.get(k, 0) for k in set(merged_dictionary) | set(count_dict)}
-        merged_observed += len(output[0][processor.iot_keyword])
+        merged_observed += observed_trigger_count
         merged_expected += output[1]
         print("Trial #: " + str(trial_num))
-        print("# of Observed Trigger Word Activations: " + str(len(output[0][processor.iot_keyword])))
+        print("# of Observed Trigger Word Activations: " + str(observed_trigger_count))
         print("# of Expected Trigger Word Activations: " + str(output[1]))
         print("All Activation Counts: " + str(count_dict))
         print("All Activation Times (seconds): " + str(output[0]))
