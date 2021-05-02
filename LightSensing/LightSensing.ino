@@ -28,11 +28,12 @@ void loop() {
 }
 
 float sample() {
-  float total = 0;
+  float maximum = -1.0;
   int samples = 4;
   for (int i = 0; i < samples; i++) {
-    total += analogRead(sensorPin);
+    int currentVal = analogRead(sensorPin);
+    maximum = (maximum < currentVal) ? currentVal : maximum;
     delay(20);
   }
-  return total/samples;
+  return maximum;
 }
