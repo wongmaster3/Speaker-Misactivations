@@ -18,12 +18,22 @@ void loop() {
     Serial.println(ON);
 
     while (lightVal >= threshold) {
-      lightVal = analogRead(sensorPin);
-      delay(75);
+      lightVal = sample();
     }
 
     Serial.println(OFF);
   }
 
   delay(10);
+}
+
+int sample() {
+  int maximum = -1;
+  int samples = 4;
+  for (int i = 0; i < samples; i++) {
+    int currentVal = analogRead(sensorPin);
+    maximum = (maximum < currentVal) ? currentVal : maximum;
+    delay(20);
+  }
+  return maximum;
 }
