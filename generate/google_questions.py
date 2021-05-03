@@ -6,7 +6,9 @@ import jsonlines
 This script will create a "text source" for the n-gram model from the Google questions and
 answers dataset in JSONLines format (unzipped).
 
-The simplified source file is huge (over 4gb), so don't put it into git!
+To regenerate, download the simplified training data from
+https://ai.google.com/research/NaturalQuestions/download.
+The simplified source file is huge (over 4gb), so don't put it into git! Unzip, then run this script.
 """
 
 parser = argparse.ArgumentParser(description='Extract questions from Q&A jsonlines as text')
