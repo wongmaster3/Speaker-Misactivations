@@ -75,7 +75,7 @@ def generate_audio(generation_active_state, logging_active_state):
                     start_time = str(time.time())
                     play_array(audio, bitrate)
                     end_time = str(time.time())
-                    word_file.write(f'{word},{start_time},{end_time}\n')
+                    word_file.write(f'{question},{start_time},{end_time}\n')
 
                     time.sleep(delay_between_words)
             # Need to wait in case light activation occurs in middle or after
