@@ -26,7 +26,7 @@ def words_ordered(file='cache/google-10000-english-no-swears.txt'):
     
     with open(file) as f:
         for num, line in enumerate(f):
-            yield line.strip()
+            yield line.strip().partition(':')[0]
             
             if num % 50 == 0:
                 yield random.choice(triggers)

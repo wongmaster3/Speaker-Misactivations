@@ -15,20 +15,21 @@ python3 detection/light.py test.csv
 ### Words
 The source file should just be a text file that contains one word per line. Then, run
 ```shell
-python3 generate/generate_audio.py
+python3 generate/generate_audio.py -f <filename> --name <name>
 ```
 
 ### N-Gram Generation
 For n-gram model generated sentences, run
 ```shell
-python3 generate/ngrams.py
+python3 generate/ngrams.py <source textfile> <number of sentences> --order <n> --output-filename <filename>
 ```
+where `<source textfile>` is the text file containing text to build the model off of, `<order>` is the max size of the n-gram (currently using 8), and <filename> is the output file (used for next step). 
 
-Then, run 
+Then to actually generate the audio files, run 
 ```shell
-python3 generate/generate_audio.py 
+python3 generate/generate_audio.py -f <filename> --name <name> --has-prefix
 ```
-to actually generate the audio files (note the `--has-prefix` switch; this is because sentences can sometimes contain illegal filename characters).
+where `<filename>` is the file that was generated via the previous script and `<name>` is just a name for the dataset (note the `--has-prefix` switch; this is because sentences can sometimes contain illegal filename characters).
 
 
 ## Main Program
