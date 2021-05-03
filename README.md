@@ -12,13 +12,24 @@ python3 detection/light.py test.csv
 ```
 
 ## Generation
-### Most Common Words
-Run 
+### Words
+The source file should just be a text file that contains one word per line. Then, run
 ```shell
-python3 generate/common_words.py 
+python3 generate/generate_audio.py
 ```
 
-There may be an issue with the libffi-dev library (related to pyglet, used for playing audio).
+### N-Gram Generation
+For n-gram model generated sentences, run
+```shell
+python3 generate/ngrams.py
+```
+
+Then, run 
+```shell
+python3 generate/generate_audio.py 
+```
+to actually generate the audio files (note the `--has-prefix` switch; this is because sentences can sometimes contain illegal filename characters).
+
 
 ## Main Program
 1. Change line 6 (serial port) in

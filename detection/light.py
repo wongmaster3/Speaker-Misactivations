@@ -1,5 +1,3 @@
-import atexit
-import os
 import serial
 import time
 
@@ -13,10 +11,8 @@ class LightDetection:
                                      timeout=LightDetection.time_out,
                                      baudrate='9600')
         
-        self.output_file = open(f"./light_logs/{name}/{experiment}/{name}_{experiment}_{trial_number}_light_activations.csv", "w")
-        
-        # in case of interruption
-        # atexit.register(self.close, self)
+        output_filename = f"./light_logs/{name}/{experiment}/{name}_{experiment}_{trial_number}_light_activations.csv"
+        self.output_file = open(output_filename, "w", buffering=1)
         
         # file heading
         self.output_file.write('start_time,end_time\n')
