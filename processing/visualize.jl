@@ -1,29 +1,18 @@
+using AbstractPlotting.GeometryBasics
 using CSV
 using GLMakie
 
 
 function load_light_data(filename="light_logs/home_mini/common_uk/home_mini_common_uk_1_light_activations.csv")
-    data = Tuple{Float64, Float64}[]
-    for row in CSV.File(filename)
-        push!(data, (row.start_time, row.end_time))
-    end
-    return data
+    return [(floor(row.start_time), ceil(row.end_time)) for row in CSV.File(filename)]
 end
 
 function load_word_data(filename="light_logs/home_mini/common_uk/home_mini_common_uk_1_word_generations.csv")
-    data = Tuple{String, Float64, Float64}[]
-    for row in CSV.File(filename)
-        push!(data, (row.word, row.start_time, row.end_time))
-    end
-    return data
+    return [(row.word, floor(row.start_time), ceil(row.end_time)) for row in CSV.File(filename)]
 end
 
 function load_network_data(filename="wireshark_logs/home_mini/home_mini_common_uk_network.csv")
-    data = Tuple{Float64, Int}[]
-    for row in CSV.File(filename)
-        push!(data, (row.time, row.size))
-    end
-    return data
+    return [(round(row.time), row.size) for row in CSV.File(filename)]
 end
 
 function visualize(word_data, light_data, network_data, company="google")
@@ -31,10 +20,13 @@ function visualize(word_data, light_data, network_data, company="google")
 
     lines(network_data, color=:black, label="network packet sizes")
 
-    for (word, start_time, end_time) in word_data
-        if word == trigger_word
-            linesegments!([(start_time, 0), (start_time, 2000)], color=:blue)
-        end
+    poly!([Rect(start_time, 0, end_time - start_time + 200, 100)
+            for (word, start_time, end_time) in word_data
+            if word == trigger_word], color=:blue)
+    for rect in [Rect(start_time, 0, end_time - start_time, 100)
+            for (word, start_time, end_time) in word_data
+            if word == trigger_word]
+        println(rect)
     end
 
     for (start_time, end_time) in light_data
