@@ -22,8 +22,7 @@ def collapse(time_list):
                 start_k = k
 
     return result
-
-
+    
 
 def main():
     parser = argparse.ArgumentParser(description="parse pcap file")

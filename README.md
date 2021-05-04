@@ -4,6 +4,12 @@ Python requirements can be installed for everything via
 ```shell
 pip3 install -r requirements.txt
 ```
+
+On linux, you may have to first install python3 and ALSA (dev packages) first; on Debian/Ubuntu flavors:
+```shell
+sudo apt-get install -y python3-dev libasound2-dev
+```
+
 ## Light Sensing
 ### Run
 Upload the Arduino logging code (in [LightSensing](LightSensing)) to the arduino. Then run:
