@@ -10,6 +10,7 @@ ask_questions = config.questions
 device_name = config.device_name.lower()
 experiment = config.experiment
 trial_number = config.trial
+word_list_filename = config.word_list_filename
 
 
 def log_activations(generation_active_state, logging_active_state):
@@ -44,7 +45,7 @@ def generate_audio(generation_active_state, logging_active_state):
     for word in words_ordered('cache/questions.txt'):
         questions.append(word.replace(' ', '_'))
     
-    for word in words_ordered():
+    for word in words_ordered(word_list_filename):
         filename = f'{word}.mp3'
         
         if filename in filenames:

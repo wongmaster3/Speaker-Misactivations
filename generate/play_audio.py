@@ -2,7 +2,7 @@ import argparse
 import numpy as np
 import pydub
 import simpleaudio as sa
-from audiomentations import Compose
+#from audiomentations import Compose
 
 
 class AudioPlayer:
@@ -23,13 +23,16 @@ def get_play_parser():
                     help='trial number of experiment')
     parser.add_argument('--questions', '-q', action='store_true',
                     help='determine whether to ask questions or not after misactivation')
+    parser.add_argument('--word-list', '-w', dest='word-list-filename',
+                        default='cache/google-10000-english-no-swears.txt',
+                        help='file for the word list to order by')
 
     return parser
 
 
-augment = Compose([
-
-])
+#augment = Compose([
+#
+#])
 
 
 def read(f, normalized=False):
