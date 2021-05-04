@@ -12,6 +12,7 @@ class Processor:
 
         self.config = parser.parse_args()
         self.iot_keyword = 'hey_alexa' if self.config.company_name == 'amazon' else 'ok_google' 
+        self.questions = set(['what_is_the_weather_today', 'what_is_food', 'how_are_you'])
 
     def get_parser(self):
         return self.config
@@ -100,19 +101,28 @@ class Processor:
             word = wt_reader[current_word_index]['word']
             prev_word = wt_reader[prev_word_index]['word']
             if prev_word != self.iot_keyword or (prev_word == self.iot_keyword and float(wt_reader[current_word_index]['start_time'])-float(wt_reader[prev_word_index]['end_time']) > 2.0):
-            # Need to check if trigger word activated within same time frame since
-                if (last_added_word_index == None) or (last_added_word_index != current_word_index):
-                    if word == self.iot_keyword:
-                        trigger_activated_words.append(light_activation_end_time-light_activation_start_time)
+                if word in self.questions:
+                    prev_word_with_question = prev_word + ': ' + word
+                    misactivated_words[prev_word_with_question] = misactivated_words[prev_word]
+                    if len(misactivated_words[prev_word_with_question]) == 0:
+                        misactivated_words[prev_word_with_question].append((light_activation_end_time-light_activation_start_time))
                     else:
-                        misactivated_words[word].append(light_activation_end_time-light_activation_start_time)
-                    last_added_word_index = current_word_index
+                        misactivated_words[prev_word_with_question][-1] += (light_activation_end_time-light_activation_start_time)
+                    del misactivated_words[prev_word]
                 else:
-                    if word == self.iot_keyword:
-                        trigger_activated_words[-1] += (light_activation_end_time-light_activation_start_time)
+                    # Need to check if trigger word activated within same time frame
+                    if (last_added_word_index == None) or (last_added_word_index != current_word_index):
+                        if word == self.iot_keyword:
+                            trigger_activated_words.append(light_activation_end_time-light_activation_start_time)
+                        else:
+                            misactivated_words[word].append(light_activation_end_time-light_activation_start_time)
+                        last_added_word_index = current_word_index
                     else:
-                        time_lst = misactivated_words[word]
-                        time_lst[-1] += (light_activation_end_time-light_activation_start_time)
+                        if word == self.iot_keyword:
+                            trigger_activated_words[-1] += (light_activation_end_time-light_activation_start_time)
+                        else:
+                            time_lst = misactivated_words[word]
+                            time_lst[-1] += (light_activation_end_time-light_activation_start_time)
 
         return (dict(misactivated_words), trigger_activated_words, total_valid_activation_count)
 

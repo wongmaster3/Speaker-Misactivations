@@ -2,6 +2,7 @@ import argparse
 import numpy as np
 import pydub
 import simpleaudio as sa
+from audiomentations import Compose
 
 
 class AudioPlayer:
@@ -24,6 +25,11 @@ def get_play_parser():
                     help='determine whether to ask questions or not after misactivation')
 
     return parser
+
+
+augment = Compose([
+
+])
 
 
 def read(f, normalized=False):
