@@ -23,7 +23,7 @@ def get_play_parser():
                     help='trial number of experiment')
     parser.add_argument('--questions', '-q', action='store_true',
                     help='determine whether to ask questions or not after misactivation')
-    parser.add_argument('--word-list', '-w', dest='word-list-filename',
+    parser.add_argument('--word-list', '-w', dest='word_list_filename',
                         default='cache/google-10000-english-no-swears.txt',
                         help='file for the word list to order by')
 
