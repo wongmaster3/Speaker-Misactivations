@@ -4,6 +4,12 @@ Python requirements can be installed for everything via
 ```shell
 pip3 install -r requirements.txt
 ```
+
+On linux, you may have to first install python3 and ALSA (dev packages) first; on Debian/Ubuntu flavors:
+```shell
+sudo apt-get install -y python3-dev libasound2-dev
+```
+
 ## Light Sensing
 ### Run
 Upload the Arduino logging code (in [LightSensing](LightSensing)) to the arduino. Then run:
@@ -12,13 +18,25 @@ python3 detection/light.py test.csv
 ```
 
 ## Generation
-### Most Common Words
-Run 
+### Words
+The source file should just be a text file that contains one word per line. Then, run
 ```shell
-python3 generate/common_words.py 
+python3 generate/generate_audio.py -f <filename> --name <name>
 ```
 
-There may be an issue with the libffi-dev library (related to pyglet, used for playing audio).
+### N-Gram Generation
+For n-gram model generated sentences, run
+```shell
+python3 generate/ngrams.py <source textfile> <number of sentences> --order <n> --output-filename <filename>
+```
+where `<source textfile>` is the text file containing text to build the model off of, `<order>` is the max size of the n-gram (currently using 8), and <filename> is the output file (used for next step). 
+
+Then to actually generate the audio files, run 
+```shell
+python3 generate/generate_audio.py -f <filename> --name <name> --has-prefix
+```
+where `<filename>` is the file that was generated via the previous script and `<name>` is just a name for the dataset (note the `--has-prefix` switch; this is because sentences can sometimes contain illegal filename characters).
+
 
 ## Main Program
 1. Change line 6 (serial port) in

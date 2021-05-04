@@ -1,4 +1,5 @@
-from multiprocessing import Process, Manager, Value
+import os
+from multiprocessing import Process, Value
 from generate.play_audio import *
 from detection.light import *
 import random
@@ -25,14 +26,15 @@ def words_ordered(file='cache/google-10000-english-no-swears.txt'):
     
     with open(file) as f:
         for num, line in enumerate(f):
-            yield line.strip()
+            yield line.strip().partition(':')[0]
             
             if num % 50 == 0:
                 yield random.choice(triggers)
     
 
 def generate_audio(generation_active_state, logging_active_state):
-    word_file = open(f"./light_logs/{device_name}/{experiment}/{device_name}_{experiment}_{trial_number}_word_generations.csv", "w")
+    output_filename = f"./light_logs/{device_name}/{experiment}/{device_name}_{experiment}_{trial_number}_word_generations.csv"
+    word_file = open(output_filename, "w", buffering=1)
     word_file.write('word,start_time,end_time\n')
 
     root, _, filenames = next(os.walk(config.dir))
@@ -92,8 +94,8 @@ if __name__ == '__main__':
     # Generation flag
     generation_active_state = Value('i', 1)
     logging_active_state = Value('i', 0)
-    p1 = Process(name='log', target=log_activations, args=(generation_active_state,logging_active_state,))
-    p2 = Process(name='generate', target=generate_audio, args=(generation_active_state,logging_active_state,))
+    p1 = Process(name='log', target=log_activations, args=(generation_active_state, logging_active_state,))
+    p2 = Process(name='generate', target=generate_audio, args=(generation_active_state, logging_active_state,))
     processes = [p1, p2]
     for process in processes:
         process.start()

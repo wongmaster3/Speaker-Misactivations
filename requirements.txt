@@ -1,6 +1,10 @@
+jsonlines~=2.0.0
+nltk~=3.6.2
 numpy~=1.18.4
 gTTS~=2.2.2
 pyserial~=3.5
 pandas~=1.2.3
 pydub~=0.25.1
 simpleaudio~=1.0.4
+scapy~=2.4.5
+audiomentations~=0.16.0
