@@ -75,12 +75,18 @@ python3 processing/process.py -fp experiments
 ```
 
 ## Database
+Before running the following steps, run the processing script first to generate the activations csv file. 
 1. Download psql on your computer
 2. Run 
 ```shell
 createdb activations
 ```
-3. Run 
+3. Change absolute path string in 
+```shell
+COPY activations FROM '/absolute/path/to/activations.csv' DELIMITER ',' CSV HEADER;
+```
+to match the absolute path on your machine. 
+4. Run 
 ```shell
 psql <user_name> -h 127.0.0.1 -d activations -f load.sql
 ```
