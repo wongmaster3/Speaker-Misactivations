@@ -50,7 +50,7 @@ to match the serial port of the Arduino on your machine.
 python3 main.py <mp3_dir> -n <iot_device_name> -e <experiment> --tld <top_level_domain> -t <trial_number> -d <delay> -q
 ```
 
-'mp3_dir' will contain the directory of the word files that will be played. 'delay' will contain the delay between each word played. 'iot_device_name' will contain the name of the iot device, 'experiemnt' will contain the name of the experiment, 'top_level_domain' will contain the accent for which the words are said, and 'trial_number' will contain the trial number. The -q argument signifies whether or not you want to ask a question after a misactivation. If included, it will ask a random question in 'questions.txt' or else no question will be asked. If you want to ask a question, please set the delay to 0.4-0.5 seeconds or else the question might not be asked when the device is misactivated. For example, if running common words folder, trial 2, using com domain, and asking questions, the command will look like this:
+'mp3_dir' will contain the directory of the word files that will be played. 'delay' will contain the delay between each word played. 'iot_device_name' will contain the name of the iot device, 'experiemnt' will contain the name of the experiment (common, google_questions, book), 'top_level_domain' will contain the accent for which the words are said, and 'trial_number' will contain the trial number. The -q argument signifies whether or not you want to ask a question after a misactivation. If included, it will ask a random question in 'questions.txt' or else no question will be asked. If you want to ask a question, please set the delay to 0.4-0.5 seeconds or else the question might not be asked when the device is misactivated. For example, if running common words folder, trial 2, using com domain, and asking questions, the command will look like this:
 
 ```shell
 python3 main.py data/common-en.com -n echo -e common --tld com -t 2 -d 0.45 -q
@@ -66,10 +66,10 @@ Logs will print out in the logs folder with the format
 ## Process Script
 Run 
 ```shell
-python3 processing/process.py -fp <folder_to_experiment_csv_files> -cn <company_name>
+python3 processing/process.py -fp <experiments_folder>
 ```
 
-The 'folder_to_experiment_csv_files' string will contain the file path to the experiments folder with the device name. The 'company_name' will contain the company name of the iot device (amazon or google). For example,
+The 'experiments_folder' string will contain the file path to the experiments folder with all experiments and trials. For example,
 ```shell
-python3 processing/process.py -fp ./light_logs/echo/experiment_1 -cn amazon
+python3 processing/process.py -fp experiments
 ```
