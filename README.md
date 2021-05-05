@@ -73,3 +73,15 @@ The 'experiments_folder' string will contain the file path to the experiments fo
 ```shell
 python3 processing/process.py -fp experiments
 ```
+
+## Database
+1. Download psql on your computer
+2. Run 
+```shell
+createdb activations
+```
+3. Run 
+```shell
+psql <user_name> -h 127.0.0.1 -d activations -f load.sql
+```
+where 'user_name' is the name of the user on the machine. 

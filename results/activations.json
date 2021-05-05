@@ -7,7 +7,577 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760784149169922
+        "duration": 6.8411359786987305
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921999931335449
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.00218939781189
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.841275453567505
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.082714080810547
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921705961227417
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921304225921631
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.680502891540527
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.082680940628052
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921762704849243
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.163012504577637
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.841109037399292
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.163621425628662
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921693563461304
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921605110168457
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.323472738265991
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.243257999420166
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.680143356323242
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.082528114318848
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.680002212524414
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 1.7705936431884766
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 1.850900650024414
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.002202987670898
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.00215482711792
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.358264207839966
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.760680913925171
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.277857065200806
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.002480745315552
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.841286659240723
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921795129776001
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.841337442398071
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 14.245638847351074
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.1632325649261475
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921767473220825
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.1631529331207275
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921497583389282
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 2.575373411178589
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.1632208824157715
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.404621601104736
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921794652938843
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.84119987487793
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.84093165397644
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.438422918319702
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.599557399749756
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.921671152114868
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.760577917098999
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.002162218093872
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.841161489486694
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.163196325302124
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 7.082667350769043
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.760764837265015
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.841235637664795
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.92185640335083
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.760877847671509
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "hey_alexa",
+        "duration": 6.760775327682495
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "letter",
+        "duration": 1.8509175777435303
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "workshop",
+        "duration": 16.4994113445282
+    },
+    {
+        "device": "echo",
+        "dataset": "common",
+        "lang": "en",
+        "tld": "co.uk",
+        "trial": 1,
+        "ipaddress": "192.168.137.14",
+        "word": "connector",
+        "duration": 1.3678250312805176
     },
     {
         "device": "echo",
@@ -17,7 +587,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.0821216106414795
+        "duration": 7.0821216106414795
     },
     {
         "device": "echo",
@@ -27,7 +597,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.243414878845215
+        "duration": 7.243414878845215
     },
     {
         "device": "echo",
@@ -37,7 +607,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.840904474258423
+        "duration": 6.840904474258423
     },
     {
         "device": "echo",
@@ -47,7 +617,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.439194440841675
+        "duration": 6.439194440841675
     },
     {
         "device": "echo",
@@ -57,7 +627,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921571969985962
+        "duration": 6.921571969985962
     },
     {
         "device": "echo",
@@ -67,7 +637,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760709524154663
+        "duration": 6.760709524154663
     },
     {
         "device": "echo",
@@ -77,7 +647,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760547399520874
+        "duration": 6.760547399520874
     },
     {
         "device": "echo",
@@ -87,7 +657,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.243451356887817
+        "duration": 7.243451356887817
     },
     {
         "device": "echo",
@@ -97,7 +667,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841006517410278
+        "duration": 6.841006517410278
     },
     {
         "device": "echo",
@@ -107,7 +677,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.162983655929565
+        "duration": 7.162983655929565
     },
     {
         "device": "echo",
@@ -117,7 +687,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841099500656128
+        "duration": 6.841099500656128
     },
     {
         "device": "echo",
@@ -127,7 +697,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.757966756820679
+        "duration": 6.757966756820679
     },
     {
         "device": "echo",
@@ -137,7 +707,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.923231601715088
+        "duration": 6.923231601715088
     },
     {
         "device": "echo",
@@ -147,7 +717,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.919816017150879
+        "duration": 6.919816017150879
     },
     {
         "device": "echo",
@@ -157,7 +727,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760754585266113
+        "duration": 6.760754585266113
     },
     {
         "device": "echo",
@@ -167,7 +737,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.679887771606445
+        "duration": 6.679887771606445
     },
     {
         "device": "echo",
@@ -177,7 +747,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760949373245239
+        "duration": 6.760949373245239
     },
     {
         "device": "echo",
@@ -187,7 +757,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.931300401687622
+        "duration": 1.931300401687622
     },
     {
         "device": "echo",
@@ -197,7 +767,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 2.0118930339813232
+        "duration": 2.0118930339813232
     },
     {
         "device": "echo",
@@ -207,7 +777,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921215295791626
+        "duration": 6.921215295791626
     },
     {
         "device": "echo",
@@ -217,7 +787,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599473714828491
+        "duration": 6.599473714828491
     },
     {
         "device": "echo",
@@ -227,7 +797,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921616554260254
+        "duration": 6.921616554260254
     },
     {
         "device": "echo",
@@ -237,7 +807,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.001995325088501
+        "duration": 7.001995325088501
     },
     {
         "device": "echo",
@@ -247,7 +817,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.9216132164001465
+        "duration": 6.9216132164001465
     },
     {
         "device": "echo",
@@ -257,7 +827,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.002082347869873
+        "duration": 7.002082347869873
     },
     {
         "device": "echo",
@@ -267,7 +837,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.00211763381958
+        "duration": 7.00211763381958
     },
     {
         "device": "echo",
@@ -277,7 +847,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.7607741355896
+        "duration": 6.7607741355896
     },
     {
         "device": "echo",
@@ -287,7 +857,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.324153184890747
+        "duration": 7.324153184890747
     },
     {
         "device": "echo",
@@ -297,7 +867,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.1630027294158936
+        "duration": 7.1630027294158936
     },
     {
         "device": "echo",
@@ -307,7 +877,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921649217605591
+        "duration": 6.921649217605591
     },
     {
         "device": "echo",
@@ -317,7 +887,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.8509325981140137
+        "duration": 1.8509325981140137
     },
     {
         "device": "echo",
@@ -327,7 +897,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921482801437378
+        "duration": 6.921482801437378
     },
     {
         "device": "echo",
@@ -337,7 +907,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 8.048089027404785
+        "duration": 8.048089027404785
     },
     {
         "device": "echo",
@@ -347,7 +917,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.162980079650879
+        "duration": 7.162980079650879
     },
     {
         "device": "echo",
@@ -357,7 +927,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.162857532501221
+        "duration": 7.162857532501221
     },
     {
         "device": "echo",
@@ -367,7 +937,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.083312511444092
+        "duration": 7.083312511444092
     },
     {
         "device": "echo",
@@ -377,7 +947,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921794652938843
+        "duration": 6.921794652938843
     },
     {
         "device": "echo",
@@ -387,7 +957,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760699987411499
+        "duration": 6.760699987411499
     },
     {
         "device": "echo",
@@ -397,7 +967,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.840932130813599
+        "duration": 6.840932130813599
     },
     {
         "device": "echo",
@@ -407,7 +977,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.438702821731567
+        "duration": 6.438702821731567
     },
     {
         "device": "echo",
@@ -417,7 +987,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841023206710815
+        "duration": 6.841023206710815
     },
     {
         "device": "echo",
@@ -427,7 +997,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.16292142868042
+        "duration": 7.16292142868042
     },
     {
         "device": "echo",
@@ -437,7 +1007,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.0020530223846436
+        "duration": 7.0020530223846436
     },
     {
         "device": "echo",
@@ -447,7 +1017,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.0019354820251465
+        "duration": 7.0019354820251465
     },
     {
         "device": "echo",
@@ -457,7 +1027,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760602712631226
+        "duration": 6.760602712631226
     },
     {
         "device": "echo",
@@ -467,7 +1037,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841075658798218
+        "duration": 6.841075658798218
     },
     {
         "device": "echo",
@@ -477,7 +1047,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.680264234542847
+        "duration": 6.680264234542847
     },
     {
         "device": "echo",
@@ -487,7 +1057,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760699510574341
+        "duration": 6.760699510574341
     },
     {
         "device": "echo",
@@ -497,7 +1067,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921527862548828
+        "duration": 6.921527862548828
     },
     {
         "device": "echo",
@@ -507,7 +1077,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921537637710571
+        "duration": 6.921537637710571
     },
     {
         "device": "echo",
@@ -517,7 +1087,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921583652496338
+        "duration": 6.921583652496338
     },
     {
         "device": "echo",
@@ -527,7 +1097,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.277556419372559
+        "duration": 6.277556419372559
     },
     {
         "device": "echo",
@@ -537,7 +1107,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.277636766433716
+        "duration": 6.277636766433716
     },
     {
         "device": "echo",
@@ -547,7 +1117,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.358041524887085
+        "duration": 6.358041524887085
     },
     {
         "device": "echo",
@@ -557,7 +1127,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.9215099811553955
+        "duration": 6.9215099811553955
     },
     {
         "device": "echo",
@@ -567,7 +1137,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.404424428939819
+        "duration": 7.404424428939819
     },
     {
         "device": "echo",
@@ -577,7 +1147,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.51910924911499
+        "duration": 6.51910924911499
     },
     {
         "device": "echo",
@@ -587,7 +1157,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921533107757568
+        "duration": 6.921533107757568
     },
     {
         "device": "echo",
@@ -597,7 +1167,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "workshops",
-        "time": 2.0923314094543457
+        "duration": 2.0923314094543457
     },
     {
         "device": "echo",
@@ -607,7 +1177,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "acer",
-        "time": 1.5290310382843018
+        "duration": 1.5290310382843018
     },
     {
         "device": "echo",
@@ -617,7 +1187,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "webshots",
-        "time": 1.4482967853546143
+        "duration": 1.4482967853546143
     },
     {
         "device": "echo",
@@ -627,7 +1197,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "lexmark",
-        "time": 1.7705578804016113
+        "duration": 1.7705578804016113
     },
     {
         "device": "echo",
@@ -637,7 +1207,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "isa",
-        "time": 1.5289671421051025
+        "duration": 1.5289671421051025
     },
     {
         "device": "echo",
@@ -647,7 +1217,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "alexandria",
-        "time": 1.529116153717041
+        "duration": 1.529116153717041
     },
     {
         "device": "echo",
@@ -657,7 +1227,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "looksmart",
-        "time": 1.6899399757385254
+        "duration": 1.6899399757385254
     },
     {
         "device": "home-mini",
@@ -667,7 +1237,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.562509775161743
+        "duration": 10.562509775161743
     },
     {
         "device": "home-mini",
@@ -677,7 +1247,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.559084177017212
+        "duration": 10.559084177017212
     },
     {
         "device": "home-mini",
@@ -687,7 +1257,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480945110321045
+        "duration": 10.480945110321045
     },
     {
         "device": "home-mini",
@@ -697,7 +1267,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480748891830444
+        "duration": 10.480748891830444
     },
     {
         "device": "home-mini",
@@ -707,7 +1277,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.559044361114502
+        "duration": 10.559044361114502
     },
     {
         "device": "home-mini",
@@ -717,7 +1287,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480895042419434
+        "duration": 10.480895042419434
     },
     {
         "device": "home-mini",
@@ -727,7 +1297,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.402930498123169
+        "duration": 10.402930498123169
     },
     {
         "device": "home-mini",
@@ -737,7 +1307,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.48099970817566
+        "duration": 10.48099970817566
     },
     {
         "device": "home-mini",
@@ -747,7 +1317,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480880498886108
+        "duration": 10.480880498886108
     },
     {
         "device": "home-mini",
@@ -757,7 +1327,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.399195432662964
+        "duration": 10.399195432662964
     },
     {
         "device": "home-mini",
@@ -767,7 +1337,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480833530426025
+        "duration": 10.480833530426025
     },
     {
         "device": "home-mini",
@@ -777,7 +1347,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.804309129714966
+        "duration": 10.804309129714966
     },
     {
         "device": "home-mini",
@@ -787,7 +1357,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.48084306716919
+        "duration": 10.48084306716919
     },
     {
         "device": "home-mini",
@@ -797,7 +1367,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.399177312850952
+        "duration": 10.399177312850952
     },
     {
         "device": "home-mini",
@@ -807,7 +1377,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480894565582275
+        "duration": 10.480894565582275
     },
     {
         "device": "home-mini",
@@ -817,7 +1387,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.399198532104492
+        "duration": 10.399198532104492
     },
     {
         "device": "home-mini",
@@ -827,7 +1397,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480835914611816
+        "duration": 10.480835914611816
     },
     {
         "device": "home-mini",
@@ -837,7 +1407,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480979442596436
+        "duration": 10.480979442596436
     },
     {
         "device": "home-mini",
@@ -847,7 +1417,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.4809250831604
+        "duration": 10.4809250831604
     },
     {
         "device": "home-mini",
@@ -857,7 +1427,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.562722444534302
+        "duration": 10.562722444534302
     },
     {
         "device": "home-mini",
@@ -867,7 +1437,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.559083461761475
+        "duration": 10.559083461761475
     },
     {
         "device": "home-mini",
@@ -877,7 +1447,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.481022596359253
+        "duration": 10.481022596359253
     },
     {
         "device": "home-mini",
@@ -887,7 +1457,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480798482894897
+        "duration": 10.480798482894897
     },
     {
         "device": "home-mini",
@@ -897,7 +1467,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.562683343887329
+        "duration": 10.562683343887329
     },
     {
         "device": "home-mini",
@@ -907,7 +1477,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.48087453842163
+        "duration": 10.48087453842163
     },
     {
         "device": "home-mini",
@@ -917,7 +1487,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.558948040008545
+        "duration": 10.558948040008545
     },
     {
         "device": "home-mini",
@@ -927,7 +1497,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.47693157196045
+        "duration": 10.47693157196045
     },
     {
         "device": "home-mini",
@@ -937,7 +1507,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.72261667251587
+        "duration": 10.72261667251587
     },
     {
         "device": "home-mini",
@@ -947,7 +1517,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.399081230163574
+        "duration": 10.399081230163574
     },
     {
         "device": "home-mini",
@@ -957,7 +1527,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.644491910934448
+        "duration": 10.644491910934448
     },
     {
         "device": "home-mini",
@@ -967,7 +1537,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.64067029953003
+        "duration": 10.64067029953003
     },
     {
         "device": "home-mini",
@@ -977,7 +1547,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.48100733757019
+        "duration": 10.48100733757019
     },
     {
         "device": "home-mini",
@@ -987,7 +1557,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.562695503234863
+        "duration": 10.562695503234863
     },
     {
         "device": "home-mini",
@@ -997,7 +1567,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.40295147895813
+        "duration": 10.40295147895813
     },
     {
         "device": "home-mini",
@@ -1007,7 +1577,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.481034517288208
+        "duration": 10.481034517288208
     },
     {
         "device": "home-mini",
@@ -1017,7 +1587,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.48103666305542
+        "duration": 10.48103666305542
     },
     {
         "device": "home-mini",
@@ -1027,7 +1597,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.48096489906311
+        "duration": 10.48096489906311
     },
     {
         "device": "home-mini",
@@ -1037,7 +1607,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.477153301239014
+        "duration": 10.477153301239014
     },
     {
         "device": "home-mini",
@@ -1047,7 +1617,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480945348739624
+        "duration": 10.480945348739624
     },
     {
         "device": "home-mini",
@@ -1057,7 +1627,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.39912748336792
+        "duration": 10.39912748336792
     },
     {
         "device": "home-mini",
@@ -1067,7 +1637,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480955362319946
+        "duration": 10.480955362319946
     },
     {
         "device": "home-mini",
@@ -1077,7 +1647,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480727434158325
+        "duration": 10.480727434158325
     },
     {
         "device": "home-mini",
@@ -1087,7 +1657,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.55846381187439
+        "duration": 10.55846381187439
     },
     {
         "device": "home-mini",
@@ -1097,7 +1667,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.398993015289307
+        "duration": 10.398993015289307
     },
     {
         "device": "home-mini",
@@ -1107,7 +1677,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.56273603439331
+        "duration": 10.56273603439331
     },
     {
         "device": "home-mini",
@@ -1117,7 +1687,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.55908489227295
+        "duration": 10.55908489227295
     },
     {
         "device": "home-mini",
@@ -1127,7 +1697,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.481029987335205
+        "duration": 10.481029987335205
     },
     {
         "device": "home-mini",
@@ -1137,7 +1707,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.558984994888306
+        "duration": 10.558984994888306
     },
     {
         "device": "home-mini",
@@ -1147,7 +1717,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.48091721534729
+        "duration": 10.48091721534729
     },
     {
         "device": "home-mini",
@@ -1157,7 +1727,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.562663793563843
+        "duration": 10.562663793563843
     },
     {
         "device": "home-mini",
@@ -1167,7 +1737,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480848550796509
+        "duration": 10.480848550796509
     },
     {
         "device": "home-mini",
@@ -1177,7 +1747,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480945110321045
+        "duration": 10.480945110321045
     },
     {
         "device": "home-mini",
@@ -1187,7 +1757,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.562684297561646
+        "duration": 10.562684297561646
     },
     {
         "device": "home-mini",
@@ -1197,7 +1767,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480936050415039
+        "duration": 10.480936050415039
     },
     {
         "device": "home-mini",
@@ -1207,7 +1777,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.481147766113281
+        "duration": 10.481147766113281
     },
     {
         "device": "home-mini",
@@ -1217,7 +1787,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.559078216552734
+        "duration": 10.559078216552734
     },
     {
         "device": "home-mini",
@@ -1227,7 +1797,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.558662176132202
+        "duration": 10.558662176132202
     },
     {
         "device": "home-mini",
@@ -1237,7 +1807,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.481030702590942
+        "duration": 10.481030702590942
     },
     {
         "device": "home-mini",
@@ -1247,7 +1817,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480819940567017
+        "duration": 10.480819940567017
     },
     {
         "device": "home-mini",
@@ -1257,7 +1827,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.399031400680542
+        "duration": 10.399031400680542
     },
     {
         "device": "home-mini",
@@ -1267,7 +1837,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.308969020843506
+        "duration": 10.308969020843506
     },
     {
         "device": "home-mini",
@@ -1277,7 +1847,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.309008598327637
+        "duration": 10.309008598327637
     },
     {
         "device": "home-mini",
@@ -1287,7 +1857,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.386417388916016
+        "duration": 10.386417388916016
     },
     {
         "device": "home-mini",
@@ -1297,7 +1867,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235688209533691
+        "duration": 10.235688209533691
     },
     {
         "device": "home-mini",
@@ -1307,7 +1877,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235557794570923
+        "duration": 10.235557794570923
     },
     {
         "device": "home-mini",
@@ -1317,7 +1887,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235416650772095
+        "duration": 10.235416650772095
     },
     {
         "device": "home-mini",
@@ -1327,7 +1897,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235203742980957
+        "duration": 10.235203742980957
     },
     {
         "device": "home-mini",
@@ -1337,7 +1907,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.309142589569092
+        "duration": 10.309142589569092
     },
     {
         "device": "home-mini",
@@ -1347,7 +1917,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235240459442139
+        "duration": 10.235240459442139
     },
     {
         "device": "home-mini",
@@ -1357,7 +1927,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.231455564498901
+        "duration": 10.231455564498901
     },
     {
         "device": "home-mini",
@@ -1367,7 +1937,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235243082046509
+        "duration": 10.235243082046509
     },
     {
         "device": "home-mini",
@@ -1377,7 +1947,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.312649965286255
+        "duration": 10.312649965286255
     },
     {
         "device": "home-mini",
@@ -1387,7 +1957,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235295534133911
+        "duration": 10.235295534133911
     },
     {
         "device": "home-mini",
@@ -1397,7 +1967,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.161353826522827
+        "duration": 10.161353826522827
     },
     {
         "device": "home-mini",
@@ -1407,7 +1977,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.234869241714478
+        "duration": 10.234869241714478
     },
     {
         "device": "home-mini",
@@ -1417,7 +1987,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157527923583984
+        "duration": 10.157527923583984
     },
     {
         "device": "home-mini",
@@ -1427,7 +1997,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.231266260147095
+        "duration": 10.231266260147095
     },
     {
         "device": "home-mini",
@@ -1437,7 +2007,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.234996557235718
+        "duration": 10.234996557235718
     },
     {
         "device": "home-mini",
@@ -1447,7 +2017,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.308848857879639
+        "duration": 10.308848857879639
     },
     {
         "device": "home-mini",
@@ -1457,7 +2027,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.16127324104309
+        "duration": 10.16127324104309
     },
     {
         "device": "home-mini",
@@ -1467,7 +2037,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.23138976097107
+        "duration": 10.23138976097107
     },
     {
         "device": "home-mini",
@@ -1477,7 +2047,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157541513442993
+        "duration": 10.157541513442993
     },
     {
         "device": "home-mini",
@@ -1487,7 +2057,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235290050506592
+        "duration": 10.235290050506592
     },
     {
         "device": "home-mini",
@@ -1497,7 +2067,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235122680664062
+        "duration": 10.235122680664062
     },
     {
         "device": "home-mini",
@@ -1507,7 +2077,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.308932065963745
+        "duration": 10.308932065963745
     },
     {
         "device": "home-mini",
@@ -1517,7 +2087,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157260417938232
+        "duration": 10.157260417938232
     },
     {
         "device": "home-mini",
@@ -1527,7 +2097,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.231379985809326
+        "duration": 10.231379985809326
     },
     {
         "device": "home-mini",
@@ -1537,7 +2107,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157746315002441
+        "duration": 10.157746315002441
     },
     {
         "device": "home-mini",
@@ -1547,7 +2117,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.161243438720703
+        "duration": 10.161243438720703
     },
     {
         "device": "home-mini",
@@ -1557,7 +2127,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235229969024658
+        "duration": 10.235229969024658
     },
     {
         "device": "home-mini",
@@ -1567,7 +2137,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157547950744629
+        "duration": 10.157547950744629
     },
     {
         "device": "home-mini",
@@ -1577,7 +2147,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157346963882446
+        "duration": 10.157346963882446
     },
     {
         "device": "home-mini",
@@ -1587,7 +2157,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157535791397095
+        "duration": 10.157535791397095
     },
     {
         "device": "home-mini",
@@ -1597,7 +2167,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157664775848389
+        "duration": 10.157664775848389
     },
     {
         "device": "home-mini",
@@ -1607,7 +2177,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157809734344482
+        "duration": 10.157809734344482
     },
     {
         "device": "home-mini",
@@ -1617,7 +2187,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.23526120185852
+        "duration": 10.23526120185852
     },
     {
         "device": "home-mini",
@@ -1627,7 +2197,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157589435577393
+        "duration": 10.157589435577393
     },
     {
         "device": "home-mini",
@@ -1637,7 +2207,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235101222991943
+        "duration": 10.235101222991943
     },
     {
         "device": "home-mini",
@@ -1647,7 +2217,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.161254405975342
+        "duration": 10.161254405975342
     },
     {
         "device": "home-mini",
@@ -1657,7 +2227,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.15738034248352
+        "duration": 10.15738034248352
     },
     {
         "device": "home-mini",
@@ -1667,7 +2237,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.23517918586731
+        "duration": 10.23517918586731
     },
     {
         "device": "home-mini",
@@ -1677,7 +2247,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.910985946655273
+        "duration": 10.910985946655273
     },
     {
         "device": "home-mini",
@@ -1687,7 +2257,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235055923461914
+        "duration": 10.235055923461914
     },
     {
         "device": "home-mini",
@@ -1697,7 +2267,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.235038757324219
+        "duration": 10.235038757324219
     },
     {
         "device": "home-mini",
@@ -1707,7 +2277,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.083618402481079
+        "duration": 10.083618402481079
     },
     {
         "device": "home-mini",
@@ -1717,7 +2287,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.161214113235474
+        "duration": 10.161214113235474
     },
     {
         "device": "home-mini",
@@ -1727,7 +2297,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157511949539185
+        "duration": 10.157511949539185
     },
     {
         "device": "home-mini",
@@ -1737,7 +2307,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157335042953491
+        "duration": 10.157335042953491
     },
     {
         "device": "home-mini",
@@ -1747,7 +2317,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157528400421143
+        "duration": 10.157528400421143
     },
     {
         "device": "home-mini",
@@ -1757,7 +2327,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.083695411682129
+        "duration": 10.083695411682129
     },
     {
         "device": "home-mini",
@@ -1767,7 +2337,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157535314559937
+        "duration": 10.157535314559937
     },
     {
         "device": "home-mini",
@@ -1777,7 +2347,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157768726348877
+        "duration": 10.157768726348877
     },
     {
         "device": "home-mini",
@@ -1787,7 +2357,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.160",
         "word": "ok_google",
-        "time": 10.157408714294434
+        "duration": 10.157408714294434
     },
     {
         "device": "echo",
@@ -1797,7 +2367,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235344171524048
+        "duration": 6.235344171524048
     },
     {
         "device": "echo",
@@ -1807,7 +2377,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.2354536056518555
+        "duration": 6.2354536056518555
     },
     {
         "device": "echo",
@@ -1817,7 +2387,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.460946321487427
+        "duration": 6.460946321487427
     },
     {
         "device": "echo",
@@ -1827,7 +2397,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310703992843628
+        "duration": 6.310703992843628
     },
     {
         "device": "echo",
@@ -1837,7 +2407,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385761976242065
+        "duration": 6.385761976242065
     },
     {
         "device": "echo",
@@ -1847,7 +2417,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310732126235962
+        "duration": 6.310732126235962
     },
     {
         "device": "echo",
@@ -1857,7 +2427,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235527753829956
+        "duration": 6.235527753829956
     },
     {
         "device": "echo",
@@ -1867,7 +2437,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235839366912842
+        "duration": 6.235839366912842
     },
     {
         "device": "echo",
@@ -1877,7 +2447,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235769510269165
+        "duration": 6.235769510269165
     },
     {
         "device": "echo",
@@ -1887,7 +2457,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.461030960083008
+        "duration": 6.461030960083008
     },
     {
         "device": "echo",
@@ -1897,7 +2467,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385822296142578
+        "duration": 6.385822296142578
     },
     {
         "device": "echo",
@@ -1907,7 +2477,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310598850250244
+        "duration": 6.310598850250244
     },
     {
         "device": "echo",
@@ -1917,7 +2487,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385969400405884
+        "duration": 6.385969400405884
     },
     {
         "device": "echo",
@@ -1927,7 +2497,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310783863067627
+        "duration": 6.310783863067627
     },
     {
         "device": "echo",
@@ -1937,7 +2507,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.536077499389648
+        "duration": 6.536077499389648
     },
     {
         "device": "echo",
@@ -1947,7 +2517,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.461032867431641
+        "duration": 6.461032867431641
     },
     {
         "device": "echo",
@@ -1957,7 +2527,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235644817352295
+        "duration": 6.235644817352295
     },
     {
         "device": "echo",
@@ -1967,7 +2537,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385761499404907
+        "duration": 6.385761499404907
     },
     {
         "device": "echo",
@@ -1977,7 +2547,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235485553741455
+        "duration": 6.235485553741455
     },
     {
         "device": "echo",
@@ -1987,7 +2557,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.31061577796936
+        "duration": 6.31061577796936
     },
     {
         "device": "echo",
@@ -1997,7 +2567,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235493183135986
+        "duration": 6.235493183135986
     },
     {
         "device": "echo",
@@ -2007,7 +2577,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.537152290344238
+        "duration": 6.537152290344238
     },
     {
         "device": "echo",
@@ -2017,7 +2587,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.5368006229400635
+        "duration": 6.5368006229400635
     },
     {
         "device": "echo",
@@ -2027,7 +2597,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385924816131592
+        "duration": 6.385924816131592
     },
     {
         "device": "echo",
@@ -2037,7 +2607,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.460697412490845
+        "duration": 6.460697412490845
     },
     {
         "device": "echo",
@@ -2047,7 +2617,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310632228851318
+        "duration": 6.310632228851318
     },
     {
         "device": "echo",
@@ -2057,7 +2627,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.31074595451355
+        "duration": 6.31074595451355
     },
     {
         "device": "echo",
@@ -2067,7 +2637,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310476303100586
+        "duration": 6.310476303100586
     },
     {
         "device": "echo",
@@ -2077,7 +2647,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.23536491394043
+        "duration": 6.23536491394043
     },
     {
         "device": "echo",
@@ -2087,7 +2657,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235344886779785
+        "duration": 6.235344886779785
     },
     {
         "device": "echo",
@@ -2097,7 +2667,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.3105857372283936
+        "duration": 6.3105857372283936
     },
     {
         "device": "echo",
@@ -2107,7 +2677,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.3103437423706055
+        "duration": 6.3103437423706055
     },
     {
         "device": "echo",
@@ -2117,7 +2687,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.3103883266448975
+        "duration": 6.3103883266448975
     },
     {
         "device": "echo",
@@ -2127,7 +2697,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235470771789551
+        "duration": 6.235470771789551
     },
     {
         "device": "echo",
@@ -2137,7 +2707,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235473394393921
+        "duration": 6.235473394393921
     },
     {
         "device": "echo",
@@ -2147,7 +2717,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.535913705825806
+        "duration": 6.535913705825806
     },
     {
         "device": "echo",
@@ -2157,7 +2727,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.3857502937316895
+        "duration": 6.3857502937316895
     },
     {
         "device": "echo",
@@ -2167,7 +2737,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235496282577515
+        "duration": 6.235496282577515
     },
     {
         "device": "echo",
@@ -2177,7 +2747,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385866165161133
+        "duration": 6.385866165161133
     },
     {
         "device": "echo",
@@ -2187,7 +2757,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.31053900718689
+        "duration": 6.31053900718689
     },
     {
         "device": "echo",
@@ -2197,7 +2767,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.460886478424072
+        "duration": 6.460886478424072
     },
     {
         "device": "echo",
@@ -2207,7 +2777,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385935544967651
+        "duration": 6.385935544967651
     },
     {
         "device": "echo",
@@ -2217,7 +2787,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310396432876587
+        "duration": 6.310396432876587
     },
     {
         "device": "echo",
@@ -2227,7 +2797,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310429811477661
+        "duration": 6.310429811477661
     },
     {
         "device": "echo",
@@ -2237,7 +2807,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.3856751918792725
+        "duration": 6.3856751918792725
     },
     {
         "device": "echo",
@@ -2247,7 +2817,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385746002197266
+        "duration": 6.385746002197266
     },
     {
         "device": "echo",
@@ -2257,7 +2827,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385807275772095
+        "duration": 6.385807275772095
     },
     {
         "device": "echo",
@@ -2267,7 +2837,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.3105552196502686
+        "duration": 6.3105552196502686
     },
     {
         "device": "echo",
@@ -2277,7 +2847,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235556602478027
+        "duration": 6.235556602478027
     },
     {
         "device": "echo",
@@ -2287,7 +2857,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310589790344238
+        "duration": 6.310589790344238
     },
     {
         "device": "echo",
@@ -2297,7 +2867,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.3520572185516357
+        "duration": 1.3520572185516357
     },
     {
         "device": "echo",
@@ -2307,7 +2877,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.310647010803223
+        "duration": 6.310647010803223
     },
     {
         "device": "echo",
@@ -2317,7 +2887,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235428094863892
+        "duration": 6.235428094863892
     },
     {
         "device": "echo",
@@ -2327,7 +2897,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235442876815796
+        "duration": 6.235442876815796
     },
     {
         "device": "echo",
@@ -2337,7 +2907,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.3106689453125
+        "duration": 6.3106689453125
     },
     {
         "device": "echo",
@@ -2347,7 +2917,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385619401931763
+        "duration": 6.385619401931763
     },
     {
         "device": "echo",
@@ -2357,7 +2927,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235416889190674
+        "duration": 6.235416889190674
     },
     {
         "device": "echo",
@@ -2367,7 +2937,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "alexander",
-        "time": 1.2770698070526123
+        "duration": 1.2770698070526123
     },
     {
         "device": "echo",
@@ -2377,7 +2947,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "lexmark",
-        "time": 1.1268894672393799
+        "duration": 1.1268894672393799
     },
     {
         "device": "echo",
@@ -2387,7 +2957,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "lesser",
-        "time": 6.1602795124053955
+        "duration": 6.1602795124053955
     },
     {
         "device": "echo",
@@ -2397,7 +2967,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "isa",
-        "time": 1.3520398139953613
+        "duration": 1.3520398139953613
     },
     {
         "device": "echo",
@@ -2407,7 +2977,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "alexandria",
-        "time": 1.276317834854126
+        "duration": 1.276317834854126
     },
     {
         "device": "echo",
@@ -2417,7 +2987,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "mixer",
-        "time": 1.3521976470947266
+        "duration": 1.3521976470947266
     },
     {
         "device": "echo",
@@ -2427,7 +2997,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "f38da9f10c",
-        "time": 2.1728522777557373
+        "duration": 2.1728522777557373
     },
     {
         "device": "echo",
@@ -2437,7 +3007,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385320663452148
+        "duration": 6.385320663452148
     },
     {
         "device": "echo",
@@ -2447,7 +3017,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.460862636566162
+        "duration": 6.460862636566162
     },
     {
         "device": "echo",
@@ -2457,7 +3027,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.535768508911133
+        "duration": 6.535768508911133
     },
     {
         "device": "echo",
@@ -2467,7 +3037,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.685927629470825
+        "duration": 6.685927629470825
     },
     {
         "device": "echo",
@@ -2477,7 +3047,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385588884353638
+        "duration": 6.385588884353638
     },
     {
         "device": "echo",
@@ -2487,7 +3057,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.536168813705444
+        "duration": 6.536168813705444
     },
     {
         "device": "echo",
@@ -2497,7 +3067,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.6867146492004395
+        "duration": 6.6867146492004395
     },
     {
         "device": "echo",
@@ -2507,7 +3077,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.536366701126099
+        "duration": 6.536366701126099
     },
     {
         "device": "echo",
@@ -2517,7 +3087,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.836638927459717
+        "duration": 6.836638927459717
     },
     {
         "device": "echo",
@@ -2527,7 +3097,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.611363172531128
+        "duration": 6.611363172531128
     },
     {
         "device": "echo",
@@ -2537,7 +3107,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.57761549949646
+        "duration": 1.57761549949646
     },
     {
         "device": "echo",
@@ -2547,7 +3117,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.610259294509888
+        "duration": 6.610259294509888
     },
     {
         "device": "echo",
@@ -2557,7 +3127,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.5773913860321045
+        "duration": 1.5773913860321045
     },
     {
         "device": "echo",
@@ -2567,7 +3137,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761344909667969
+        "duration": 6.761344909667969
     },
     {
         "device": "echo",
@@ -2577,7 +3147,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.611128807067871
+        "duration": 6.611128807067871
     },
     {
         "device": "echo",
@@ -2587,7 +3157,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.31067681312561
+        "duration": 6.31067681312561
     },
     {
         "device": "echo",
@@ -2597,7 +3167,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.4273626804351807
+        "duration": 1.4273626804351807
     },
     {
         "device": "echo",
@@ -2607,7 +3177,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.461024522781372
+        "duration": 6.461024522781372
     },
     {
         "device": "echo",
@@ -2617,7 +3187,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.8781180381774902
+        "duration": 1.8781180381774902
     },
     {
         "device": "echo",
@@ -2627,7 +3197,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.6526219844818115
+        "duration": 1.6526219844818115
     },
     {
         "device": "echo",
@@ -2637,7 +3207,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385745048522949
+        "duration": 6.385745048522949
     },
     {
         "device": "echo",
@@ -2647,7 +3217,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.686406135559082
+        "duration": 6.686406135559082
     },
     {
         "device": "echo",
@@ -2657,7 +3227,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.53645396232605
+        "duration": 6.53645396232605
     },
     {
         "device": "echo",
@@ -2667,7 +3237,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761615514755249
+        "duration": 6.761615514755249
     },
     {
         "device": "echo",
@@ -2677,7 +3247,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761447191238403
+        "duration": 6.761447191238403
     },
     {
         "device": "echo",
@@ -2687,7 +3257,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.461008548736572
+        "duration": 6.461008548736572
     },
     {
         "device": "echo",
@@ -2697,7 +3267,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.137233734130859
+        "duration": 7.137233734130859
     },
     {
         "device": "echo",
@@ -2707,7 +3277,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.287463665008545
+        "duration": 7.287463665008545
     },
     {
         "device": "echo",
@@ -2717,7 +3287,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.836532354354858
+        "duration": 6.836532354354858
     },
     {
         "device": "echo",
@@ -2727,7 +3297,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.7615416049957275
+        "duration": 6.7615416049957275
     },
     {
         "device": "echo",
@@ -2737,7 +3307,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.160486698150635
+        "duration": 6.160486698150635
     },
     {
         "device": "echo",
@@ -2747,7 +3317,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.460858106613159
+        "duration": 6.460858106613159
     },
     {
         "device": "echo",
@@ -2757,7 +3327,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.461073160171509
+        "duration": 6.461073160171509
     },
     {
         "device": "echo",
@@ -2767,7 +3337,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.13715386390686
+        "duration": 7.13715386390686
     },
     {
         "device": "echo",
@@ -2777,7 +3347,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.6112892627716064
+        "duration": 6.6112892627716064
     },
     {
         "device": "echo",
@@ -2787,7 +3357,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.461056470870972
+        "duration": 6.461056470870972
     },
     {
         "device": "echo",
@@ -2797,7 +3367,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.836809158325195
+        "duration": 6.836809158325195
     },
     {
         "device": "echo",
@@ -2807,7 +3377,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.686620712280273
+        "duration": 6.686620712280273
     },
     {
         "device": "echo",
@@ -2817,7 +3387,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.686527490615845
+        "duration": 6.686527490615845
     },
     {
         "device": "echo",
@@ -2827,7 +3397,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.536179780960083
+        "duration": 6.536179780960083
     },
     {
         "device": "echo",
@@ -2837,7 +3407,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.7614829540252686
+        "duration": 6.7614829540252686
     },
     {
         "device": "echo",
@@ -2847,7 +3417,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.911819934844971
+        "duration": 6.911819934844971
     },
     {
         "device": "echo",
@@ -2857,7 +3427,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.535849571228027
+        "duration": 6.535849571228027
     },
     {
         "device": "echo",
@@ -2867,7 +3437,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.5357346534729
+        "duration": 6.5357346534729
     },
     {
         "device": "echo",
@@ -2877,7 +3447,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761251449584961
+        "duration": 6.761251449584961
     },
     {
         "device": "echo",
@@ -2887,7 +3457,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.235605001449585
+        "duration": 6.235605001449585
     },
     {
         "device": "echo",
@@ -2897,7 +3467,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.7615156173706055
+        "duration": 6.7615156173706055
     },
     {
         "device": "echo",
@@ -2907,7 +3477,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.460721731185913
+        "duration": 6.460721731185913
     },
     {
         "device": "echo",
@@ -2917,7 +3487,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761895656585693
+        "duration": 6.761895656585693
     },
     {
         "device": "echo",
@@ -2927,7 +3497,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761745452880859
+        "duration": 6.761745452880859
     },
     {
         "device": "echo",
@@ -2937,7 +3507,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.686462163925171
+        "duration": 6.686462163925171
     },
     {
         "device": "echo",
@@ -2947,7 +3517,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761596918106079
+        "duration": 6.761596918106079
     },
     {
         "device": "echo",
@@ -2957,7 +3527,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "collection",
-        "time": 2.028225898742676
+        "duration": 2.028225898742676
     },
     {
         "device": "echo",
@@ -2967,7 +3537,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "answers",
-        "time": 2.1036159992218018
+        "duration": 2.1036159992218018
     },
     {
         "device": "echo",
@@ -2977,7 +3547,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "electric",
-        "time": 2.1033883094787598
+        "duration": 2.1033883094787598
     },
     {
         "device": "echo",
@@ -2987,7 +3557,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "collections",
-        "time": 1.5775458812713623
+        "duration": 1.5775458812713623
     },
     {
         "device": "echo",
@@ -2997,7 +3567,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "ultra",
-        "time": 6.23531436920166
+        "duration": 6.23531436920166
     },
     {
         "device": "echo",
@@ -3007,7 +3577,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "elected",
-        "time": 1.3518726825714111
+        "duration": 1.3518726825714111
     },
     {
         "device": "echo",
@@ -3017,7 +3587,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "vector",
-        "time": 1.5778443813323975
+        "duration": 1.5778443813323975
     },
     {
         "device": "echo",
@@ -3027,7 +3597,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "awesome",
-        "time": 2.0286107063293457
+        "duration": 2.0286107063293457
     },
     {
         "device": "echo",
@@ -3037,7 +3607,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "arthur",
-        "time": 1.5775344371795654
+        "duration": 1.5775344371795654
     },
     {
         "device": "echo",
@@ -3047,7 +3617,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "luxembourg",
-        "time": 1.9532017707824707
+        "duration": 1.9532017707824707
     },
     {
         "device": "echo",
@@ -3057,7 +3627,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "collectors",
-        "time": 1.7276079654693604
+        "duration": 1.7276079654693604
     },
     {
         "device": "echo",
@@ -3067,7 +3637,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "lesser",
-        "time": 3.681006908416748
+        "duration": 3.681006908416748
     },
     {
         "device": "echo",
@@ -3077,7 +3647,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "lesser",
-        "time": 26.89562201499939
+        "duration": 26.89562201499939
     },
     {
         "device": "echo",
@@ -3087,7 +3657,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "lexus",
-        "time": 1.9532537460327148
+        "duration": 1.9532537460327148
     },
     {
         "device": "echo",
@@ -3097,7 +3667,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "isa",
-        "time": 1.3521544933319092
+        "duration": 1.3521544933319092
     },
     {
         "device": "echo",
@@ -3107,7 +3677,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "tulsa",
-        "time": 1.5021235942840576
+        "duration": 1.5021235942840576
     },
     {
         "device": "echo",
@@ -3117,7 +3687,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "tulsa",
-        "time": 6.31083607673645
+        "duration": 6.31083607673645
     },
     {
         "device": "echo",
@@ -3127,7 +3697,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "paxil",
-        "time": 1.4272761344909668
+        "duration": 1.4272761344909668
     },
     {
         "device": "echo",
@@ -3137,7 +3707,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "cursor",
-        "time": 1.8782076835632324
+        "duration": 1.8782076835632324
     },
     {
         "device": "echo",
@@ -3147,7 +3717,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.323992729187012
+        "duration": 7.323992729187012
     },
     {
         "device": "echo",
@@ -3157,7 +3727,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.759632349014282
+        "duration": 6.759632349014282
     },
     {
         "device": "echo",
@@ -3167,7 +3737,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.679677724838257
+        "duration": 6.679677724838257
     },
     {
         "device": "echo",
@@ -3177,7 +3747,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921532154083252
+        "duration": 6.921532154083252
     },
     {
         "device": "echo",
@@ -3187,7 +3757,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.001923322677612
+        "duration": 7.001923322677612
     },
     {
         "device": "echo",
@@ -3197,7 +3767,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.00190281867981
+        "duration": 7.00190281867981
     },
     {
         "device": "echo",
@@ -3207,7 +3777,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921588182449341
+        "duration": 6.921588182449341
     },
     {
         "device": "echo",
@@ -3217,7 +3787,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.9215147495269775
+        "duration": 6.9215147495269775
     },
     {
         "device": "echo",
@@ -3227,7 +3797,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.358086109161377
+        "duration": 6.358086109161377
     },
     {
         "device": "echo",
@@ -3237,7 +3807,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.082502841949463
+        "duration": 7.082502841949463
     },
     {
         "device": "echo",
@@ -3247,7 +3817,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761367559432983
+        "duration": 6.761367559432983
     },
     {
         "device": "echo",
@@ -3257,7 +3827,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841304063796997
+        "duration": 6.841304063796997
     },
     {
         "device": "echo",
@@ -3267,7 +3837,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921647548675537
+        "duration": 6.921647548675537
     },
     {
         "device": "echo",
@@ -3277,7 +3847,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760644197463989
+        "duration": 6.760644197463989
     },
     {
         "device": "echo",
@@ -3287,7 +3857,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.002048969268799
+        "duration": 7.002048969268799
     },
     {
         "device": "echo",
@@ -3297,7 +3867,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599659204483032
+        "duration": 6.599659204483032
     },
     {
         "device": "echo",
@@ -3307,7 +3877,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760402202606201
+        "duration": 6.760402202606201
     },
     {
         "device": "echo",
@@ -3317,7 +3887,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.519135236740112
+        "duration": 6.519135236740112
     },
     {
         "device": "echo",
@@ -3327,7 +3897,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.519140958786011
+        "duration": 6.519140958786011
     },
     {
         "device": "echo",
@@ -3337,7 +3907,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.27751612663269
+        "duration": 6.27751612663269
     },
     {
         "device": "echo",
@@ -3347,7 +3917,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.519210338592529
+        "duration": 6.519210338592529
     },
     {
         "device": "echo",
@@ -3357,7 +3927,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.679833173751831
+        "duration": 6.679833173751831
     },
     {
         "device": "echo",
@@ -3367,7 +3937,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841145277023315
+        "duration": 6.841145277023315
     },
     {
         "device": "echo",
@@ -3377,7 +3947,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841130256652832
+        "duration": 6.841130256652832
     },
     {
         "device": "echo",
@@ -3387,7 +3957,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.243428468704224
+        "duration": 7.243428468704224
     },
     {
         "device": "echo",
@@ -3397,7 +3967,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.840781211853027
+        "duration": 6.840781211853027
     },
     {
         "device": "echo",
@@ -3407,7 +3977,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.323540687561035
+        "duration": 7.323540687561035
     },
     {
         "device": "echo",
@@ -3417,7 +3987,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.1628241539001465
+        "duration": 7.1628241539001465
     },
     {
         "device": "echo",
@@ -3427,7 +3997,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.082260608673096
+        "duration": 7.082260608673096
     },
     {
         "device": "echo",
@@ -3437,7 +4007,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.7607102394104
+        "duration": 6.7607102394104
     },
     {
         "device": "echo",
@@ -3447,7 +4017,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921391487121582
+        "duration": 6.921391487121582
     },
     {
         "device": "echo",
@@ -3457,7 +4027,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 2.092468500137329
+        "duration": 2.092468500137329
     },
     {
         "device": "echo",
@@ -3467,7 +4037,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.8509812355041504
+        "duration": 1.8509812355041504
     },
     {
         "device": "echo",
@@ -3477,7 +4047,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.084104537963867
+        "duration": 7.084104537963867
     },
     {
         "device": "echo",
@@ -3487,7 +4057,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841160535812378
+        "duration": 6.841160535812378
     },
     {
         "device": "echo",
@@ -3497,7 +4067,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760622262954712
+        "duration": 6.760622262954712
     },
     {
         "device": "echo",
@@ -3507,7 +4077,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.690011739730835
+        "duration": 1.690011739730835
     },
     {
         "device": "echo",
@@ -3517,7 +4087,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.7704920768737793
+        "duration": 1.7704920768737793
     },
     {
         "device": "echo",
@@ -3527,7 +4097,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841196060180664
+        "duration": 6.841196060180664
     },
     {
         "device": "echo",
@@ -3537,7 +4107,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841470956802368
+        "duration": 6.841470956802368
     },
     {
         "device": "echo",
@@ -3547,7 +4117,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.082129240036011
+        "duration": 7.082129240036011
     },
     {
         "device": "echo",
@@ -3557,7 +4127,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.840632200241089
+        "duration": 6.840632200241089
     },
     {
         "device": "echo",
@@ -3567,7 +4137,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.001709938049316
+        "duration": 7.001709938049316
     },
     {
         "device": "echo",
@@ -3577,7 +4147,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599522113800049
+        "duration": 6.599522113800049
     },
     {
         "device": "echo",
@@ -3587,7 +4157,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760400056838989
+        "duration": 6.760400056838989
     },
     {
         "device": "echo",
@@ -3597,7 +4167,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921393632888794
+        "duration": 6.921393632888794
     },
     {
         "device": "echo",
@@ -3607,7 +4177,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760278224945068
+        "duration": 6.760278224945068
     },
     {
         "device": "echo",
@@ -3617,7 +4187,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921422243118286
+        "duration": 6.921422243118286
     },
     {
         "device": "echo",
@@ -3627,7 +4197,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.679827690124512
+        "duration": 6.679827690124512
     },
     {
         "device": "echo",
@@ -3637,7 +4207,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760432004928589
+        "duration": 6.760432004928589
     },
     {
         "device": "echo",
@@ -3647,7 +4217,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.162944793701172
+        "duration": 7.162944793701172
     },
     {
         "device": "echo",
@@ -3657,7 +4227,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760501146316528
+        "duration": 6.760501146316528
     },
     {
         "device": "echo",
@@ -3667,7 +4237,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.7603020668029785
+        "duration": 6.7603020668029785
     },
     {
         "device": "echo",
@@ -3677,7 +4247,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.8509409427642822
+        "duration": 1.8509409427642822
     },
     {
         "device": "echo",
@@ -3687,7 +4257,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921926975250244
+        "duration": 6.921926975250244
     },
     {
         "device": "echo",
@@ -3697,7 +4267,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "action",
-        "time": 7.082242965698242
+        "duration": 7.082242965698242
     },
     {
         "device": "echo",
@@ -3707,7 +4277,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "collection",
-        "time": 2.414597749710083
+        "duration": 2.414597749710083
     },
     {
         "device": "echo",
@@ -3717,7 +4287,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "flexible",
-        "time": 1.3680872917175293
+        "duration": 1.3680872917175293
     },
     {
         "device": "echo",
@@ -3727,7 +4297,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "lecture",
-        "time": 1.6898682117462158
+        "duration": 1.6898682117462158
     },
     {
         "device": "echo",
@@ -3737,7 +4307,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "luxembourg",
-        "time": 1.9315156936645508
+        "duration": 1.9315156936645508
     },
     {
         "device": "echo",
@@ -3747,7 +4317,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "accessed",
-        "time": 2.173190116882324
+        "duration": 2.173190116882324
     },
     {
         "device": "echo",
@@ -3757,7 +4327,7 @@
         "trial": 2,
         "ipaddress": "192.168.137.14",
         "word": "lexus",
-        "time": 1.7705481052398682
+        "duration": 1.7705481052398682
     },
     {
         "device": "echo",
@@ -3767,7 +4337,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.836214303970337
+        "duration": 6.836214303970337
     },
     {
         "device": "echo",
@@ -3777,7 +4347,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310600519180298
+        "duration": 6.310600519180298
     },
     {
         "device": "echo",
@@ -3787,7 +4357,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385744333267212
+        "duration": 6.385744333267212
     },
     {
         "device": "echo",
@@ -3797,7 +4367,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 1.4273521900177002
+        "duration": 1.4273521900177002
     },
     {
         "device": "echo",
@@ -3807,7 +4377,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 1.352031946182251
+        "duration": 1.352031946182251
     },
     {
         "device": "echo",
@@ -3817,7 +4387,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310433626174927
+        "duration": 6.310433626174927
     },
     {
         "device": "echo",
@@ -3827,7 +4397,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.235215425491333
+        "duration": 6.235215425491333
     },
     {
         "device": "echo",
@@ -3837,7 +4407,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.235472679138184
+        "duration": 6.235472679138184
     },
     {
         "device": "echo",
@@ -3847,7 +4417,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310572624206543
+        "duration": 6.310572624206543
     },
     {
         "device": "echo",
@@ -3857,7 +4427,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.5357465744018555
+        "duration": 6.5357465744018555
     },
     {
         "device": "echo",
@@ -3867,7 +4437,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385732650756836
+        "duration": 6.385732650756836
     },
     {
         "device": "echo",
@@ -3877,7 +4447,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.3856120109558105
+        "duration": 6.3856120109558105
     },
     {
         "device": "echo",
@@ -3887,7 +4457,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.686787366867065
+        "duration": 6.686787366867065
     },
     {
         "device": "echo",
@@ -3897,7 +4467,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.386005401611328
+        "duration": 6.386005401611328
     },
     {
         "device": "echo",
@@ -3907,7 +4477,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.5361082553863525
+        "duration": 6.5361082553863525
     },
     {
         "device": "echo",
@@ -3917,7 +4487,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385744571685791
+        "duration": 6.385744571685791
     },
     {
         "device": "echo",
@@ -3927,7 +4497,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 1.4273028373718262
+        "duration": 1.4273028373718262
     },
     {
         "device": "echo",
@@ -3937,7 +4507,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.2347636222839355
+        "duration": 6.2347636222839355
     },
     {
         "device": "echo",
@@ -3947,7 +4517,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.234999656677246
+        "duration": 6.234999656677246
     },
     {
         "device": "echo",
@@ -3957,7 +4527,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.535737037658691
+        "duration": 6.535737037658691
     },
     {
         "device": "echo",
@@ -3967,7 +4537,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.3856823444366455
+        "duration": 6.3856823444366455
     },
     {
         "device": "echo",
@@ -3977,7 +4547,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385633707046509
+        "duration": 6.385633707046509
     },
     {
         "device": "echo",
@@ -3987,7 +4557,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 1.2769649028778076
+        "duration": 1.2769649028778076
     },
     {
         "device": "echo",
@@ -3997,7 +4567,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.235620737075806
+        "duration": 6.235620737075806
     },
     {
         "device": "echo",
@@ -4007,7 +4577,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385584831237793
+        "duration": 6.385584831237793
     },
     {
         "device": "echo",
@@ -4017,7 +4587,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385582208633423
+        "duration": 6.385582208633423
     },
     {
         "device": "echo",
@@ -4027,7 +4597,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 1.277038812637329
+        "duration": 1.277038812637329
     },
     {
         "device": "echo",
@@ -4037,7 +4607,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.235541105270386
+        "duration": 6.235541105270386
     },
     {
         "device": "echo",
@@ -4047,7 +4617,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.3105151653289795
+        "duration": 6.3105151653289795
     },
     {
         "device": "echo",
@@ -4057,7 +4627,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.460855960845947
+        "duration": 6.460855960845947
     },
     {
         "device": "echo",
@@ -4067,7 +4637,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.611049652099609
+        "duration": 6.611049652099609
     },
     {
         "device": "echo",
@@ -4077,7 +4647,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.31050968170166
+        "duration": 6.31050968170166
     },
     {
         "device": "echo",
@@ -4087,7 +4657,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.460777759552002
+        "duration": 6.460777759552002
     },
     {
         "device": "echo",
@@ -4097,7 +4667,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310476303100586
+        "duration": 6.310476303100586
     },
     {
         "device": "echo",
@@ -4107,7 +4677,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.3104777336120605
+        "duration": 6.3104777336120605
     },
     {
         "device": "echo",
@@ -4117,7 +4687,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.460948944091797
+        "duration": 6.460948944091797
     },
     {
         "device": "echo",
@@ -4127,7 +4697,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310429573059082
+        "duration": 6.310429573059082
     },
     {
         "device": "echo",
@@ -4137,7 +4707,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.235613107681274
+        "duration": 6.235613107681274
     },
     {
         "device": "echo",
@@ -4147,7 +4717,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385586977005005
+        "duration": 6.385586977005005
     },
     {
         "device": "echo",
@@ -4157,7 +4727,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310390472412109
+        "duration": 6.310390472412109
     },
     {
         "device": "echo",
@@ -4167,7 +4737,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.31038761138916
+        "duration": 6.31038761138916
     },
     {
         "device": "echo",
@@ -4177,7 +4747,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385657548904419
+        "duration": 6.385657548904419
     },
     {
         "device": "echo",
@@ -4187,7 +4757,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310586929321289
+        "duration": 6.310586929321289
     },
     {
         "device": "echo",
@@ -4197,7 +4767,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.535923480987549
+        "duration": 6.535923480987549
     },
     {
         "device": "echo",
@@ -4207,7 +4777,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.31059193611145
+        "duration": 6.31059193611145
     },
     {
         "device": "echo",
@@ -4217,7 +4787,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385956287384033
+        "duration": 6.385956287384033
     },
     {
         "device": "echo",
@@ -4227,7 +4797,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.461038827896118
+        "duration": 6.461038827896118
     },
     {
         "device": "echo",
@@ -4237,7 +4807,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.461085796356201
+        "duration": 6.461085796356201
     },
     {
         "device": "echo",
@@ -4247,7 +4817,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 4.131805658340454
+        "duration": 4.131805658340454
     },
     {
         "device": "echo",
@@ -4257,7 +4827,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.460935831069946
+        "duration": 6.460935831069946
     },
     {
         "device": "echo",
@@ -4267,7 +4837,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.460910320281982
+        "duration": 6.460910320281982
     },
     {
         "device": "echo",
@@ -4277,7 +4847,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.460880994796753
+        "duration": 6.460880994796753
     },
     {
         "device": "echo",
@@ -4287,7 +4857,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385819911956787
+        "duration": 6.385819911956787
     },
     {
         "device": "echo",
@@ -4297,7 +4867,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.460860252380371
+        "duration": 6.460860252380371
     },
     {
         "device": "echo",
@@ -4307,7 +4877,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.3104918003082275
+        "duration": 6.3104918003082275
     },
     {
         "device": "echo",
@@ -4317,7 +4887,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310366630554199
+        "duration": 6.310366630554199
     },
     {
         "device": "echo",
@@ -4327,7 +4897,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310455083847046
+        "duration": 6.310455083847046
     },
     {
         "device": "echo",
@@ -4337,7 +4907,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.460717439651489
+        "duration": 6.460717439651489
     },
     {
         "device": "echo",
@@ -4347,7 +4917,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310479640960693
+        "duration": 6.310479640960693
     },
     {
         "device": "echo",
@@ -4357,7 +4927,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385704755783081
+        "duration": 6.385704755783081
     },
     {
         "device": "echo",
@@ -4367,7 +4937,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.235503911972046
+        "duration": 6.235503911972046
     },
     {
         "device": "echo",
@@ -4377,7 +4947,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.235408544540405
+        "duration": 6.235408544540405
     },
     {
         "device": "echo",
@@ -4387,7 +4957,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.385761260986328
+        "duration": 6.385761260986328
     },
     {
         "device": "echo",
@@ -4397,7 +4967,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.386212348937988
+        "duration": 6.386212348937988
     },
     {
         "device": "echo",
@@ -4407,7 +4977,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310774326324463
+        "duration": 6.310774326324463
     },
     {
         "device": "echo",
@@ -4417,7 +4987,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.2355029582977295
+        "duration": 6.2355029582977295
     },
     {
         "device": "echo",
@@ -4427,7 +4997,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 1.1268370151519775
+        "duration": 1.1268370151519775
     },
     {
         "device": "echo",
@@ -4437,7 +5007,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.235453367233276
+        "duration": 6.235453367233276
     },
     {
         "device": "echo",
@@ -4447,7 +5017,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.4608025550842285
+        "duration": 6.4608025550842285
     },
     {
         "device": "echo",
@@ -4457,7 +5027,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.536092042922974
+        "duration": 6.536092042922974
     },
     {
         "device": "echo",
@@ -4467,7 +5037,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.310620069503784
+        "duration": 6.310620069503784
     },
     {
         "device": "echo",
@@ -4477,7 +5047,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "collection",
-        "time": 1.5776481628417969
+        "duration": 1.5776481628417969
     },
     {
         "device": "echo",
@@ -4487,7 +5057,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "flexible",
-        "time": 1.4273102283477783
+        "duration": 1.4273102283477783
     },
     {
         "device": "echo",
@@ -4497,7 +5067,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "blackjack",
-        "time": 1.2771179676055908
+        "duration": 1.2771179676055908
     },
     {
         "device": "echo",
@@ -4507,7 +5077,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "flexibility",
-        "time": 1.277047872543335
+        "duration": 1.277047872543335
     },
     {
         "device": "echo",
@@ -4517,7 +5087,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "lexus",
-        "time": 1.3521780967712402
+        "duration": 1.3521780967712402
     },
     {
         "device": "echo",
@@ -4527,7 +5097,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.74",
         "word": "mixer",
-        "time": 1.8031880855560303
+        "duration": 1.8031880855560303
     },
     {
         "device": "echo",
@@ -4537,7 +5107,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.921460151672363
+        "duration": 6.921460151672363
     },
     {
         "device": "echo",
@@ -4547,7 +5117,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.680035829544067
+        "duration": 6.680035829544067
     },
     {
         "device": "echo",
@@ -4557,7 +5127,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.59971284866333
+        "duration": 6.59971284866333
     },
     {
         "device": "echo",
@@ -4567,7 +5137,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.438669443130493
+        "duration": 6.438669443130493
     },
     {
         "device": "echo",
@@ -4577,7 +5147,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.438730478286743
+        "duration": 6.438730478286743
     },
     {
         "device": "echo",
@@ -4587,7 +5157,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.358147859573364
+        "duration": 6.358147859573364
     },
     {
         "device": "echo",
@@ -4597,7 +5167,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760493993759155
+        "duration": 6.760493993759155
     },
     {
         "device": "echo",
@@ -4607,7 +5177,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.358099937438965
+        "duration": 6.358099937438965
     },
     {
         "device": "echo",
@@ -4617,7 +5187,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.163003206253052
+        "duration": 7.163003206253052
     },
     {
         "device": "echo",
@@ -4627,7 +5197,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.082656621932983
+        "duration": 7.082656621932983
     },
     {
         "device": "echo",
@@ -4637,7 +5207,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760738372802734
+        "duration": 6.760738372802734
     },
     {
         "device": "echo",
@@ -4647,7 +5217,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.163092851638794
+        "duration": 7.163092851638794
     },
     {
         "device": "echo",
@@ -4657,7 +5227,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.7606940269470215
+        "duration": 6.7606940269470215
     },
     {
         "device": "echo",
@@ -4667,7 +5237,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.438678979873657
+        "duration": 6.438678979873657
     },
     {
         "device": "echo",
@@ -4677,7 +5247,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.323939800262451
+        "duration": 7.323939800262451
     },
     {
         "device": "echo",
@@ -4687,7 +5257,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760464668273926
+        "duration": 6.760464668273926
     },
     {
         "device": "echo",
@@ -4697,7 +5267,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.0018675327301025
+        "duration": 7.0018675327301025
     },
     {
         "device": "echo",
@@ -4707,7 +5277,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.082495450973511
+        "duration": 7.082495450973511
     },
     {
         "device": "echo",
@@ -4717,7 +5287,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.002110004425049
+        "duration": 7.002110004425049
     },
     {
         "device": "echo",
@@ -4727,7 +5297,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.9216039180755615
+        "duration": 6.9216039180755615
     },
     {
         "device": "echo",
@@ -4737,7 +5307,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.840831995010376
+        "duration": 6.840831995010376
     },
     {
         "device": "echo",
@@ -4747,7 +5317,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.162789583206177
+        "duration": 7.162789583206177
     },
     {
         "device": "echo",
@@ -4757,7 +5327,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.001966953277588
+        "duration": 7.001966953277588
     },
     {
         "device": "echo",
@@ -4767,7 +5337,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760570049285889
+        "duration": 6.760570049285889
     },
     {
         "device": "echo",
@@ -4777,7 +5347,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.519057989120483
+        "duration": 6.519057989120483
     },
     {
         "device": "echo",
@@ -4787,7 +5357,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.6801862716674805
+        "duration": 6.6801862716674805
     },
     {
         "device": "echo",
@@ -4797,7 +5367,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.921406507492065
+        "duration": 6.921406507492065
     },
     {
         "device": "echo",
@@ -4807,7 +5377,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.4386420249938965
+        "duration": 6.4386420249938965
     },
     {
         "device": "echo",
@@ -4817,7 +5387,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.4384729862213135
+        "duration": 6.4384729862213135
     },
     {
         "device": "echo",
@@ -4827,7 +5397,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.002050399780273
+        "duration": 7.002050399780273
     },
     {
         "device": "echo",
@@ -4837,7 +5407,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760944128036499
+        "duration": 6.760944128036499
     },
     {
         "device": "echo",
@@ -4847,7 +5417,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.324291467666626
+        "duration": 7.324291467666626
     },
     {
         "device": "echo",
@@ -4857,7 +5427,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.841249227523804
+        "duration": 6.841249227523804
     },
     {
         "device": "echo",
@@ -4867,7 +5437,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.840943336486816
+        "duration": 6.840943336486816
     },
     {
         "device": "echo",
@@ -4877,7 +5447,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.002003192901611
+        "duration": 7.002003192901611
     },
     {
         "device": "echo",
@@ -4887,7 +5457,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760643243789673
+        "duration": 6.760643243789673
     },
     {
         "device": "echo",
@@ -4897,7 +5467,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.519054174423218
+        "duration": 6.519054174423218
     },
     {
         "device": "echo",
@@ -4907,7 +5477,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.243618965148926
+        "duration": 7.243618965148926
     },
     {
         "device": "echo",
@@ -4917,7 +5487,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.921665191650391
+        "duration": 6.921665191650391
     },
     {
         "device": "echo",
@@ -4927,7 +5497,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.002040386199951
+        "duration": 7.002040386199951
     },
     {
         "device": "echo",
@@ -4937,7 +5507,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.5190589427948
+        "duration": 6.5190589427948
     },
     {
         "device": "echo",
@@ -4947,7 +5517,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.680042266845703
+        "duration": 6.680042266845703
     },
     {
         "device": "echo",
@@ -4957,7 +5527,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760636329650879
+        "duration": 6.760636329650879
     },
     {
         "device": "echo",
@@ -4967,7 +5537,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.0826733112335205
+        "duration": 7.0826733112335205
     },
     {
         "device": "echo",
@@ -4977,7 +5547,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.921544790267944
+        "duration": 6.921544790267944
     },
     {
         "device": "echo",
@@ -4987,7 +5557,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.002030372619629
+        "duration": 7.002030372619629
     },
     {
         "device": "echo",
@@ -4997,7 +5567,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.001967191696167
+        "duration": 7.001967191696167
     },
     {
         "device": "echo",
@@ -5007,7 +5577,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.680196762084961
+        "duration": 6.680196762084961
     },
     {
         "device": "echo",
@@ -5017,7 +5587,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 2.011983633041382
+        "duration": 2.011983633041382
     },
     {
         "device": "echo",
@@ -5027,7 +5597,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.841045618057251
+        "duration": 6.841045618057251
     },
     {
         "device": "echo",
@@ -5037,7 +5607,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760578870773315
+        "duration": 6.760578870773315
     },
     {
         "device": "echo",
@@ -5047,7 +5617,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.002083778381348
+        "duration": 7.002083778381348
     },
     {
         "device": "echo",
@@ -5057,7 +5627,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.0021796226501465
+        "duration": 7.0021796226501465
     },
     {
         "device": "echo",
@@ -5067,7 +5637,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.841001987457275
+        "duration": 6.841001987457275
     },
     {
         "device": "echo",
@@ -5077,7 +5647,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.002180814743042
+        "duration": 7.002180814743042
     },
     {
         "device": "echo",
@@ -5087,7 +5657,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.841168403625488
+        "duration": 6.841168403625488
     },
     {
         "device": "echo",
@@ -5097,7 +5667,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.001585245132446
+        "duration": 7.001585245132446
     },
     {
         "device": "echo",
@@ -5107,7 +5677,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.921415090560913
+        "duration": 6.921415090560913
     },
     {
         "device": "echo",
@@ -5117,7 +5687,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.67989706993103
+        "duration": 6.67989706993103
     },
     {
         "device": "echo",
@@ -5127,7 +5697,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 7.0018532276153564
+        "duration": 7.0018532276153564
     },
     {
         "device": "echo",
@@ -5137,7 +5707,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760390281677246
+        "duration": 6.760390281677246
     },
     {
         "device": "echo",
@@ -5147,7 +5717,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 2.0926027297973633
+        "duration": 2.0926027297973633
     },
     {
         "device": "echo",
@@ -5157,7 +5727,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.760828971862793
+        "duration": 6.760828971862793
     },
     {
         "device": "echo",
@@ -5167,7 +5737,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.841246604919434
+        "duration": 6.841246604919434
     },
     {
         "device": "echo",
@@ -5177,7 +5747,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "hey_alexa",
-        "time": 6.6803319454193115
+        "duration": 6.6803319454193115
     },
     {
         "device": "echo",
@@ -5187,7 +5757,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "election",
-        "time": 1.5286915302276611
+        "duration": 1.5286915302276611
     },
     {
         "device": "echo",
@@ -5197,7 +5767,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "flexible",
-        "time": 1.7704722881317139
+        "duration": 1.7704722881317139
     },
     {
         "device": "echo",
@@ -5207,7 +5777,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "mexican",
-        "time": 1.8511996269226074
+        "duration": 1.8511996269226074
     },
     {
         "device": "echo",
@@ -5217,7 +5787,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "correction",
-        "time": 1.207167148590088
+        "duration": 1.207167148590088
     },
     {
         "device": "echo",
@@ -5227,7 +5797,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "flexibility",
-        "time": 8.853315830230713
+        "duration": 8.853315830230713
     },
     {
         "device": "echo",
@@ -5237,7 +5807,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "collective",
-        "time": 2.012226104736328
+        "duration": 2.012226104736328
     },
     {
         "device": "echo",
@@ -5247,7 +5817,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.74",
         "word": "lexus",
-        "time": 1.8511269092559814
+        "duration": 1.8511269092559814
     },
     {
         "device": "home-mini",
@@ -5257,7 +5827,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "1ec24ee2b7",
-        "time": 4.353436708450317
+        "duration": 4.353436708450317
     },
     {
         "device": "home-mini",
@@ -5267,7 +5837,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.399124145507812
+        "duration": 10.399124145507812
     },
     {
         "device": "home-mini",
@@ -5277,7 +5847,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.480684995651245
+        "duration": 10.480684995651245
     },
     {
         "device": "home-mini",
@@ -5287,7 +5857,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.481021165847778
+        "duration": 10.481021165847778
     },
     {
         "device": "home-mini",
@@ -5297,7 +5867,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.32084345817566
+        "duration": 10.32084345817566
     },
     {
         "device": "home-mini",
@@ -5307,7 +5877,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239345788955688
+        "duration": 10.239345788955688
     },
     {
         "device": "home-mini",
@@ -5317,7 +5887,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.23552131652832
+        "duration": 10.23552131652832
     },
     {
         "device": "home-mini",
@@ -5327,7 +5897,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239375114440918
+        "duration": 10.239375114440918
     },
     {
         "device": "home-mini",
@@ -5337,7 +5907,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239219188690186
+        "duration": 10.239219188690186
     },
     {
         "device": "home-mini",
@@ -5347,7 +5917,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.23926329612732
+        "duration": 10.23926329612732
     },
     {
         "device": "home-mini",
@@ -5357,7 +5927,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239328384399414
+        "duration": 10.239328384399414
     },
     {
         "device": "home-mini",
@@ -5367,7 +5937,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317334413528442
+        "duration": 10.317334413528442
     },
     {
         "device": "home-mini",
@@ -5377,7 +5947,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320997476577759
+        "duration": 10.320997476577759
     },
     {
         "device": "home-mini",
@@ -5387,7 +5957,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.321041345596313
+        "duration": 10.321041345596313
     },
     {
         "device": "home-mini",
@@ -5397,7 +5967,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239332914352417
+        "duration": 10.239332914352417
     },
     {
         "device": "home-mini",
@@ -5407,7 +5977,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239274024963379
+        "duration": 10.239274024963379
     },
     {
         "device": "home-mini",
@@ -5417,7 +5987,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239216566085815
+        "duration": 10.239216566085815
     },
     {
         "device": "home-mini",
@@ -5427,7 +5997,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317406415939331
+        "duration": 10.317406415939331
     },
     {
         "device": "home-mini",
@@ -5437,7 +6007,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239330768585205
+        "duration": 10.239330768585205
     },
     {
         "device": "home-mini",
@@ -5447,7 +6017,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.23924994468689
+        "duration": 10.23924994468689
     },
     {
         "device": "home-mini",
@@ -5457,7 +6027,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239150762557983
+        "duration": 10.239150762557983
     },
     {
         "device": "home-mini",
@@ -5467,7 +6037,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320929050445557
+        "duration": 10.320929050445557
     },
     {
         "device": "home-mini",
@@ -5477,7 +6047,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.399141550064087
+        "duration": 10.399141550064087
     },
     {
         "device": "home-mini",
@@ -5487,7 +6057,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.23921251296997
+        "duration": 10.23921251296997
     },
     {
         "device": "home-mini",
@@ -5497,7 +6067,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.321049928665161
+        "duration": 10.321049928665161
     },
     {
         "device": "home-mini",
@@ -5507,7 +6077,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317460536956787
+        "duration": 10.317460536956787
     },
     {
         "device": "home-mini",
@@ -5517,7 +6087,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239306926727295
+        "duration": 10.239306926727295
     },
     {
         "device": "home-mini",
@@ -5527,7 +6097,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320929527282715
+        "duration": 10.320929527282715
     },
     {
         "device": "home-mini",
@@ -5537,7 +6107,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239312887191772
+        "duration": 10.239312887191772
     },
     {
         "device": "home-mini",
@@ -5547,7 +6117,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.321041107177734
+        "duration": 10.321041107177734
     },
     {
         "device": "home-mini",
@@ -5557,7 +6127,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.321214437484741
+        "duration": 10.321214437484741
     },
     {
         "device": "home-mini",
@@ -5567,7 +6137,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.235480546951294
+        "duration": 10.235480546951294
     },
     {
         "device": "home-mini",
@@ -5577,7 +6147,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317363977432251
+        "duration": 10.317363977432251
     },
     {
         "device": "home-mini",
@@ -5587,7 +6157,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320878505706787
+        "duration": 10.320878505706787
     },
     {
         "device": "home-mini",
@@ -5597,7 +6167,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.235510349273682
+        "duration": 10.235510349273682
     },
     {
         "device": "home-mini",
@@ -5607,7 +6177,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239135503768921
+        "duration": 10.239135503768921
     },
     {
         "device": "home-mini",
@@ -5617,7 +6187,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239083051681519
+        "duration": 10.239083051681519
     },
     {
         "device": "home-mini",
@@ -5627,7 +6197,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239301681518555
+        "duration": 10.239301681518555
     },
     {
         "device": "home-mini",
@@ -5637,7 +6207,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320915699005127
+        "duration": 10.320915699005127
     },
     {
         "device": "home-mini",
@@ -5647,7 +6217,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.23930287361145
+        "duration": 10.23930287361145
     },
     {
         "device": "home-mini",
@@ -5657,7 +6227,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239179134368896
+        "duration": 10.239179134368896
     },
     {
         "device": "home-mini",
@@ -5667,7 +6237,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.235522985458374
+        "duration": 10.235522985458374
     },
     {
         "device": "home-mini",
@@ -5677,7 +6247,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.235536813735962
+        "duration": 10.235536813735962
     },
     {
         "device": "home-mini",
@@ -5687,7 +6257,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239238262176514
+        "duration": 10.239238262176514
     },
     {
         "device": "home-mini",
@@ -5697,7 +6267,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239293098449707
+        "duration": 10.239293098449707
     },
     {
         "device": "home-mini",
@@ -5707,7 +6277,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239147424697876
+        "duration": 10.239147424697876
     },
     {
         "device": "home-mini",
@@ -5717,7 +6287,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239269256591797
+        "duration": 10.239269256591797
     },
     {
         "device": "home-mini",
@@ -5727,7 +6297,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239360570907593
+        "duration": 10.239360570907593
     },
     {
         "device": "home-mini",
@@ -5737,7 +6307,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239160537719727
+        "duration": 10.239160537719727
     },
     {
         "device": "home-mini",
@@ -5747,7 +6317,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317432403564453
+        "duration": 10.317432403564453
     },
     {
         "device": "home-mini",
@@ -5757,7 +6327,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.32108449935913
+        "duration": 10.32108449935913
     },
     {
         "device": "home-mini",
@@ -5767,7 +6337,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317410707473755
+        "duration": 10.317410707473755
     },
     {
         "device": "home-mini",
@@ -5777,7 +6347,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320983171463013
+        "duration": 10.320983171463013
     },
     {
         "device": "home-mini",
@@ -5787,7 +6357,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.31746768951416
+        "duration": 10.31746768951416
     },
     {
         "device": "home-mini",
@@ -5797,7 +6367,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.32108736038208
+        "duration": 10.32108736038208
     },
     {
         "device": "home-mini",
@@ -5807,7 +6377,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239346027374268
+        "duration": 10.239346027374268
     },
     {
         "device": "home-mini",
@@ -5817,7 +6387,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.32110333442688
+        "duration": 10.32110333442688
     },
     {
         "device": "home-mini",
@@ -5827,7 +6397,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239166975021362
+        "duration": 10.239166975021362
     },
     {
         "device": "home-mini",
@@ -5837,7 +6407,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317281246185303
+        "duration": 10.317281246185303
     },
     {
         "device": "home-mini",
@@ -5847,7 +6417,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320976495742798
+        "duration": 10.320976495742798
     },
     {
         "device": "home-mini",
@@ -5857,7 +6427,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239288330078125
+        "duration": 10.239288330078125
     },
     {
         "device": "home-mini",
@@ -5867,7 +6437,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317305564880371
+        "duration": 10.317305564880371
     },
     {
         "device": "home-mini",
@@ -5877,7 +6447,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.31719970703125
+        "duration": 10.31719970703125
     },
     {
         "device": "home-mini",
@@ -5887,7 +6457,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.23528003692627
+        "duration": 10.23528003692627
     },
     {
         "device": "home-mini",
@@ -5897,7 +6467,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239263772964478
+        "duration": 10.239263772964478
     },
     {
         "device": "home-mini",
@@ -5907,7 +6477,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317112445831299
+        "duration": 10.317112445831299
     },
     {
         "device": "home-mini",
@@ -5917,7 +6487,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320762872695923
+        "duration": 10.320762872695923
     },
     {
         "device": "home-mini",
@@ -5927,7 +6497,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.321075677871704
+        "duration": 10.321075677871704
     },
     {
         "device": "home-mini",
@@ -5937,7 +6507,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239213943481445
+        "duration": 10.239213943481445
     },
     {
         "device": "home-mini",
@@ -5947,7 +6517,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239365577697754
+        "duration": 10.239365577697754
     },
     {
         "device": "home-mini",
@@ -5957,7 +6527,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.321005821228027
+        "duration": 10.321005821228027
     },
     {
         "device": "home-mini",
@@ -5967,7 +6537,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317307233810425
+        "duration": 10.317307233810425
     },
     {
         "device": "home-mini",
@@ -5977,7 +6547,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.235482692718506
+        "duration": 10.235482692718506
     },
     {
         "device": "home-mini",
@@ -5987,7 +6557,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317277193069458
+        "duration": 10.317277193069458
     },
     {
         "device": "home-mini",
@@ -5997,7 +6567,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320788621902466
+        "duration": 10.320788621902466
     },
     {
         "device": "home-mini",
@@ -6007,7 +6577,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.320955276489258
+        "duration": 10.320955276489258
     },
     {
         "device": "home-mini",
@@ -6017,7 +6587,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239361047744751
+        "duration": 10.239361047744751
     },
     {
         "device": "home-mini",
@@ -6027,7 +6597,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.321044445037842
+        "duration": 10.321044445037842
     },
     {
         "device": "home-mini",
@@ -6037,7 +6607,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.239267110824585
+        "duration": 10.239267110824585
     },
     {
         "device": "home-mini",
@@ -6047,7 +6617,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.32111668586731
+        "duration": 10.32111668586731
     },
     {
         "device": "home-mini",
@@ -6057,7 +6627,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 11.124025821685791
+        "duration": 11.124025821685791
     },
     {
         "device": "home-mini",
@@ -6067,7 +6637,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.145",
         "word": "ok_google",
-        "time": 10.317344903945923
+        "duration": 10.317344903945923
     },
     {
         "device": "echo",
@@ -6077,7 +6647,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841134786605835
+        "duration": 6.841134786605835
     },
     {
         "device": "echo",
@@ -6087,7 +6657,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841354846954346
+        "duration": 6.841354846954346
     },
     {
         "device": "echo",
@@ -6097,7 +6667,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760627508163452
+        "duration": 6.760627508163452
     },
     {
         "device": "echo",
@@ -6107,7 +6677,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.519381046295166
+        "duration": 6.519381046295166
     },
     {
         "device": "echo",
@@ -6117,7 +6687,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.51941704750061
+        "duration": 6.51941704750061
     },
     {
         "device": "echo",
@@ -6127,7 +6697,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.438876390457153
+        "duration": 6.438876390457153
     },
     {
         "device": "echo",
@@ -6137,7 +6707,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599860906600952
+        "duration": 6.599860906600952
     },
     {
         "device": "echo",
@@ -6147,7 +6717,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.5986058712005615
+        "duration": 6.5986058712005615
     },
     {
         "device": "echo",
@@ -6157,7 +6727,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 2.0119974613189697
+        "duration": 2.0119974613189697
     },
     {
         "device": "echo",
@@ -6167,7 +6737,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760112047195435
+        "duration": 6.760112047195435
     },
     {
         "device": "echo",
@@ -6177,7 +6747,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.0024542808532715
+        "duration": 7.0024542808532715
     },
     {
         "device": "echo",
@@ -6187,7 +6757,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760294198989868
+        "duration": 6.760294198989868
     },
     {
         "device": "echo",
@@ -6197,7 +6767,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760741233825684
+        "duration": 6.760741233825684
     },
     {
         "device": "echo",
@@ -6207,7 +6777,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.759963035583496
+        "duration": 6.759963035583496
     },
     {
         "device": "echo",
@@ -6217,7 +6787,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.277367353439331
+        "duration": 6.277367353439331
     },
     {
         "device": "echo",
@@ -6227,7 +6797,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.9216203689575195
+        "duration": 6.9216203689575195
     },
     {
         "device": "echo",
@@ -6237,7 +6807,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.680294036865234
+        "duration": 6.680294036865234
     },
     {
         "device": "echo",
@@ -6247,7 +6817,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760759353637695
+        "duration": 6.760759353637695
     },
     {
         "device": "echo",
@@ -6257,7 +6827,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.840987205505371
+        "duration": 6.840987205505371
     },
     {
         "device": "echo",
@@ -6267,7 +6837,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.8512413501739502
+        "duration": 1.8512413501739502
     },
     {
         "device": "echo",
@@ -6277,7 +6847,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.519162178039551
+        "duration": 6.519162178039551
     },
     {
         "device": "echo",
@@ -6287,7 +6857,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.358180999755859
+        "duration": 6.358180999755859
     },
     {
         "device": "echo",
@@ -6297,7 +6867,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.680126428604126
+        "duration": 6.680126428604126
     },
     {
         "device": "echo",
@@ -6307,7 +6877,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599724531173706
+        "duration": 6.599724531173706
     },
     {
         "device": "echo",
@@ -6317,7 +6887,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.277791500091553
+        "duration": 6.277791500091553
     },
     {
         "device": "echo",
@@ -6327,7 +6897,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599800109863281
+        "duration": 6.599800109863281
     },
     {
         "device": "echo",
@@ -6337,7 +6907,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.438709497451782
+        "duration": 6.438709497451782
     },
     {
         "device": "echo",
@@ -6347,7 +6917,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599997282028198
+        "duration": 6.599997282028198
     },
     {
         "device": "echo",
@@ -6357,7 +6927,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.002284288406372
+        "duration": 7.002284288406372
     },
     {
         "device": "echo",
@@ -6367,7 +6937,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.519319772720337
+        "duration": 6.519319772720337
     },
     {
         "device": "echo",
@@ -6377,7 +6947,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.850886583328247
+        "duration": 1.850886583328247
     },
     {
         "device": "echo",
@@ -6387,7 +6957,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760526657104492
+        "duration": 6.760526657104492
     },
     {
         "device": "echo",
@@ -6397,7 +6967,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.35810112953186
+        "duration": 6.35810112953186
     },
     {
         "device": "echo",
@@ -6407,7 +6977,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.51908278465271
+        "duration": 6.51908278465271
     },
     {
         "device": "echo",
@@ -6417,7 +6987,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.680269002914429
+        "duration": 6.680269002914429
     },
     {
         "device": "echo",
@@ -6427,7 +6997,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841323137283325
+        "duration": 6.841323137283325
     },
     {
         "device": "echo",
@@ -6437,7 +7007,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.59987998008728
+        "duration": 6.59987998008728
     },
     {
         "device": "echo",
@@ -6447,7 +7017,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.760852813720703
+        "duration": 6.760852813720703
     },
     {
         "device": "echo",
@@ -6457,7 +7027,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921050071716309
+        "duration": 6.921050071716309
     },
     {
         "device": "echo",
@@ -6467,7 +7037,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.5189549922943115
+        "duration": 6.5189549922943115
     },
     {
         "device": "echo",
@@ -6477,7 +7047,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599351406097412
+        "duration": 6.599351406097412
     },
     {
         "device": "echo",
@@ -6487,7 +7057,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.438565492630005
+        "duration": 6.438565492630005
     },
     {
         "device": "echo",
@@ -6497,7 +7067,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599538564682007
+        "duration": 6.599538564682007
     },
     {
         "device": "echo",
@@ -6507,7 +7077,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.357977867126465
+        "duration": 6.357977867126465
     },
     {
         "device": "echo",
@@ -6517,7 +7087,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599712371826172
+        "duration": 6.599712371826172
     },
     {
         "device": "echo",
@@ -6527,7 +7097,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.519344329833984
+        "duration": 6.519344329833984
     },
     {
         "device": "echo",
@@ -6537,7 +7107,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841642618179321
+        "duration": 6.841642618179321
     },
     {
         "device": "echo",
@@ -6547,7 +7117,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.002601861953735
+        "duration": 7.002601861953735
     },
     {
         "device": "echo",
@@ -6557,7 +7127,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.278012037277222
+        "duration": 6.278012037277222
     },
     {
         "device": "echo",
@@ -6567,7 +7137,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.680308818817139
+        "duration": 6.680308818817139
     },
     {
         "device": "echo",
@@ -6577,7 +7147,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.002365827560425
+        "duration": 7.002365827560425
     },
     {
         "device": "echo",
@@ -6587,7 +7157,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.68026065826416
+        "duration": 6.68026065826416
     },
     {
         "device": "echo",
@@ -6597,7 +7167,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.8414013385772705
+        "duration": 6.8414013385772705
     },
     {
         "device": "echo",
@@ -6607,7 +7177,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 2.0120129585266113
+        "duration": 2.0120129585266113
     },
     {
         "device": "echo",
@@ -6617,7 +7187,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.680127143859863
+        "duration": 6.680127143859863
     },
     {
         "device": "echo",
@@ -6627,7 +7197,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.921698808670044
+        "duration": 6.921698808670044
     },
     {
         "device": "echo",
@@ -6637,7 +7207,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.680180549621582
+        "duration": 6.680180549621582
     },
     {
         "device": "echo",
@@ -6647,7 +7217,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.358981609344482
+        "duration": 6.358981609344482
     },
     {
         "device": "echo",
@@ -6657,7 +7227,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841871738433838
+        "duration": 6.841871738433838
     },
     {
         "device": "echo",
@@ -6667,7 +7237,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.841389417648315
+        "duration": 6.841389417648315
     },
     {
         "device": "echo",
@@ -6677,7 +7247,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.600035190582275
+        "duration": 6.600035190582275
     },
     {
         "device": "echo",
@@ -6687,7 +7257,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 2.0926451683044434
+        "duration": 2.0926451683044434
     },
     {
         "device": "echo",
@@ -6697,7 +7267,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.59988260269165
+        "duration": 6.59988260269165
     },
     {
         "device": "echo",
@@ -6707,7 +7277,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.197634696960449
+        "duration": 6.197634696960449
     },
     {
         "device": "echo",
@@ -6717,7 +7287,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 15.211842775344849
+        "duration": 15.211842775344849
     },
     {
         "device": "echo",
@@ -6727,7 +7297,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.163271427154541
+        "duration": 7.163271427154541
     },
     {
         "device": "echo",
@@ -6737,7 +7307,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.9215826988220215
+        "duration": 6.9215826988220215
     },
     {
         "device": "echo",
@@ -6747,7 +7317,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599899530410767
+        "duration": 6.599899530410767
     },
     {
         "device": "echo",
@@ -6757,7 +7327,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.438788652420044
+        "duration": 6.438788652420044
     },
     {
         "device": "echo",
@@ -6767,7 +7337,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599745988845825
+        "duration": 6.599745988845825
     },
     {
         "device": "echo",
@@ -6777,7 +7347,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.082958459854126
+        "duration": 7.082958459854126
     },
     {
         "device": "echo",
@@ -6787,7 +7357,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 2.333967685699463
+        "duration": 2.333967685699463
     },
     {
         "device": "echo",
@@ -6797,7 +7367,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.840917110443115
+        "duration": 6.840917110443115
     },
     {
         "device": "echo",
@@ -6807,7 +7377,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.518885374069214
+        "duration": 6.518885374069214
     },
     {
         "device": "echo",
@@ -6817,7 +7387,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.438261270523071
+        "duration": 6.438261270523071
     },
     {
         "device": "echo",
@@ -6827,7 +7397,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.277430534362793
+        "duration": 6.277430534362793
     },
     {
         "device": "echo",
@@ -6837,7 +7407,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.599402189254761
+        "duration": 6.599402189254761
     },
     {
         "device": "echo",
@@ -6847,7 +7417,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "collection",
-        "time": 1.7706165313720703
+        "duration": 1.7706165313720703
     },
     {
         "device": "echo",
@@ -6857,7 +7427,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "culture",
-        "time": 1.9317984580993652
+        "duration": 1.9317984580993652
     },
     {
         "device": "echo",
@@ -6867,7 +7437,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "electric",
-        "time": 1.5290729999542236
+        "duration": 1.5290729999542236
     },
     {
         "device": "echo",
@@ -6877,7 +7447,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "elected",
-        "time": 1.6094484329223633
+        "duration": 1.6094484329223633
     },
     {
         "device": "echo",
@@ -6887,7 +7457,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "lecture",
-        "time": 2.977764368057251
+        "duration": 2.977764368057251
     },
     {
         "device": "echo",
@@ -6897,7 +7467,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "simulation: how_are_you",
-        "time": 1.126950979232788
+        "duration": 1.126950979232788
     },
     {
         "device": "echo",
@@ -6907,7 +7477,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "electricity",
-        "time": 1.6898350715637207
+        "duration": 1.6898350715637207
     },
     {
         "device": "echo",
@@ -6917,7 +7487,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "collector",
-        "time": 2.414405107498169
+        "duration": 2.414405107498169
     },
     {
         "device": "echo",
@@ -6927,7 +7497,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "oxygen",
-        "time": 1.3679900169372559
+        "duration": 1.3679900169372559
     },
     {
         "device": "echo",
@@ -6937,7 +7507,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "luxembourg",
-        "time": 2.012333869934082
+        "duration": 2.012333869934082
     },
     {
         "device": "echo",
@@ -6947,7 +7517,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "collectors",
-        "time": 2.173342704772949
+        "duration": 2.173342704772949
     },
     {
         "device": "echo",
@@ -6957,7 +7527,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "electro",
-        "time": 1.9315061569213867
+        "duration": 1.9315061569213867
     },
     {
         "device": "echo",
@@ -6967,7 +7537,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "lexus",
-        "time": 1.2072603702545166
+        "duration": 1.2072603702545166
     },
     {
         "device": "echo",
@@ -6977,7 +7547,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "isa",
-        "time": 2.977952003479004
+        "duration": 2.977952003479004
     },
     {
         "device": "echo",
@@ -6987,7 +7557,7 @@
         "trial": 3,
         "ipaddress": "192.168.137.14",
         "word": "tulsa",
-        "time": 2.0121800899505615
+        "duration": 2.0121800899505615
     },
     {
         "device": "echo",
@@ -6997,7 +7567,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.836276292800903
+        "duration": 6.836276292800903
     },
     {
         "device": "echo",
@@ -7007,7 +7577,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.98673415184021
+        "duration": 6.98673415184021
     },
     {
         "device": "echo",
@@ -7017,7 +7587,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.611003160476685
+        "duration": 6.611003160476685
     },
     {
         "device": "echo",
@@ -7027,7 +7597,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.535816669464111
+        "duration": 6.535816669464111
     },
     {
         "device": "echo",
@@ -7037,7 +7607,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385710954666138
+        "duration": 6.385710954666138
     },
     {
         "device": "echo",
@@ -7047,7 +7617,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.686681747436523
+        "duration": 6.686681747436523
     },
     {
         "device": "echo",
@@ -7057,7 +7627,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.686622619628906
+        "duration": 6.686622619628906
     },
     {
         "device": "echo",
@@ -7067,7 +7637,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.911532878875732
+        "duration": 6.911532878875732
     },
     {
         "device": "echo",
@@ -7077,7 +7647,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.911684036254883
+        "duration": 6.911684036254883
     },
     {
         "device": "echo",
@@ -7087,7 +7657,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.611070394515991
+        "duration": 6.611070394515991
     },
     {
         "device": "echo",
@@ -7097,7 +7667,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.83661675453186
+        "duration": 6.83661675453186
     },
     {
         "device": "echo",
@@ -7107,7 +7677,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761255741119385
+        "duration": 6.761255741119385
     },
     {
         "device": "echo",
@@ -7117,7 +7687,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 2.1784827709198
+        "duration": 2.1784827709198
     },
     {
         "device": "echo",
@@ -7127,7 +7697,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.535887241363525
+        "duration": 6.535887241363525
     },
     {
         "device": "echo",
@@ -7137,7 +7707,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761509656906128
+        "duration": 6.761509656906128
     },
     {
         "device": "echo",
@@ -7147,7 +7717,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.911856651306152
+        "duration": 6.911856651306152
     },
     {
         "device": "echo",
@@ -7157,7 +7727,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.8363728523254395
+        "duration": 6.8363728523254395
     },
     {
         "device": "echo",
@@ -7167,7 +7737,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.53614616394043
+        "duration": 6.53614616394043
     },
     {
         "device": "echo",
@@ -7177,7 +7747,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.836599111557007
+        "duration": 6.836599111557007
     },
     {
         "device": "echo",
@@ -7187,7 +7757,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.611242771148682
+        "duration": 6.611242771148682
     },
     {
         "device": "echo",
@@ -7197,7 +7767,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.061723947525024
+        "duration": 7.061723947525024
     },
     {
         "device": "echo",
@@ -7207,7 +7777,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.611114978790283
+        "duration": 6.611114978790283
     },
     {
         "device": "echo",
@@ -7217,7 +7787,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.8362510204315186
+        "duration": 6.8362510204315186
     },
     {
         "device": "echo",
@@ -7227,7 +7797,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.460767507553101
+        "duration": 6.460767507553101
     },
     {
         "device": "echo",
@@ -7237,7 +7807,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.062284708023071
+        "duration": 7.062284708023071
     },
     {
         "device": "echo",
@@ -7247,7 +7817,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.911924362182617
+        "duration": 6.911924362182617
     },
     {
         "device": "echo",
@@ -7257,7 +7827,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.836643934249878
+        "duration": 6.836643934249878
     },
     {
         "device": "echo",
@@ -7267,7 +7837,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 2.028533697128296
+        "duration": 2.028533697128296
     },
     {
         "device": "echo",
@@ -7277,7 +7847,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.5361292362213135
+        "duration": 6.5361292362213135
     },
     {
         "device": "echo",
@@ -7287,7 +7857,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385749578475952
+        "duration": 6.385749578475952
     },
     {
         "device": "echo",
@@ -7297,7 +7867,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.910694122314453
+        "duration": 6.910694122314453
     },
     {
         "device": "echo",
@@ -7307,7 +7877,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.535242319107056
+        "duration": 6.535242319107056
     },
     {
         "device": "echo",
@@ -7317,7 +7887,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.911260604858398
+        "duration": 6.911260604858398
     },
     {
         "device": "echo",
@@ -7327,7 +7897,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.084966421127319
+        "duration": 6.084966421127319
     },
     {
         "device": "echo",
@@ -7337,7 +7907,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.6526119709014893
+        "duration": 1.6526119709014893
     },
     {
         "device": "echo",
@@ -7347,7 +7917,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.460723400115967
+        "duration": 6.460723400115967
     },
     {
         "device": "echo",
@@ -7357,7 +7927,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.911920547485352
+        "duration": 6.911920547485352
     },
     {
         "device": "echo",
@@ -7367,7 +7937,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.7279167175292969
+        "duration": 1.7279167175292969
     },
     {
         "device": "echo",
@@ -7377,7 +7947,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.761453151702881
+        "duration": 6.761453151702881
     },
     {
         "device": "echo",
@@ -7387,7 +7957,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.611281156539917
+        "duration": 6.611281156539917
     },
     {
         "device": "echo",
@@ -7397,7 +7967,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 7.061726331710815
+        "duration": 7.061726331710815
     },
     {
         "device": "echo",
@@ -7407,7 +7977,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.8029844760894775
+        "duration": 1.8029844760894775
     },
     {
         "device": "echo",
@@ -7417,7 +7987,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.686197519302368
+        "duration": 6.686197519302368
     },
     {
         "device": "echo",
@@ -7427,7 +7997,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.611245632171631
+        "duration": 6.611245632171631
     },
     {
         "device": "echo",
@@ -7437,7 +8007,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.8030519485473633
+        "duration": 1.8030519485473633
     },
     {
         "device": "echo",
@@ -7447,7 +8017,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.535916566848755
+        "duration": 6.535916566848755
     },
     {
         "device": "echo",
@@ -7457,7 +8027,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.911700963973999
+        "duration": 6.911700963973999
     },
     {
         "device": "echo",
@@ -7467,7 +8037,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.385754823684692
+        "duration": 6.385754823684692
     },
     {
         "device": "echo",
@@ -7477,7 +8047,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.3857340812683105
+        "duration": 6.3857340812683105
     },
     {
         "device": "echo",
@@ -7487,7 +8057,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.6864094734191895
+        "duration": 6.6864094734191895
     },
     {
         "device": "echo",
@@ -7497,7 +8067,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.3521597385406494
+        "duration": 1.3521597385406494
     },
     {
         "device": "echo",
@@ -7507,7 +8077,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 6.9117114543914795
+        "duration": 6.9117114543914795
     },
     {
         "device": "echo",
@@ -7517,7 +8087,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "hey_alexa",
-        "time": 1.7278532981872559
+        "duration": 1.7278532981872559
     },
     {
         "device": "echo",
@@ -7527,7 +8097,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "author",
-        "time": 2.8546316623687744
+        "duration": 2.8546316623687744
     },
     {
         "device": "echo",
@@ -7537,7 +8107,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "different",
-        "time": 1.1270718574523926
+        "duration": 1.1270718574523926
     },
     {
         "device": "echo",
@@ -7547,7 +8117,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "collection",
-        "time": 2.028306245803833
+        "duration": 2.028306245803833
     },
     {
         "device": "echo",
@@ -7557,7 +8127,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "answer",
-        "time": 2.253990888595581
+        "duration": 2.253990888595581
     },
     {
         "device": "echo",
@@ -7567,7 +8137,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "answers",
-        "time": 1.5023932456970215
+        "duration": 1.5023932456970215
     },
     {
         "device": "echo",
@@ -7577,7 +8147,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "collections",
-        "time": 1.2768471240997314
+        "duration": 1.2768471240997314
     },
     {
         "device": "echo",
@@ -7587,7 +8157,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "ultra",
-        "time": 2.9301373958587646
+        "duration": 2.9301373958587646
     },
     {
         "device": "echo",
@@ -7597,7 +8167,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "winner",
-        "time": 2.478926420211792
+        "duration": 2.478926420211792
     },
     {
         "device": "echo",
@@ -7607,7 +8177,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "alex",
-        "time": 1.2018322944641113
+        "duration": 1.2018322944641113
     },
     {
         "device": "echo",
@@ -7617,7 +8187,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "awesome",
-        "time": 1.8782873153686523
+        "duration": 1.8782873153686523
     },
     {
         "device": "echo",
@@ -7627,7 +8197,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "arthur",
-        "time": 1.9529905319213867
+        "duration": 1.9529905319213867
     },
     {
         "device": "echo",
@@ -7637,7 +8207,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "collectors",
-        "time": 1.8780953884124756
+        "duration": 1.8780953884124756
     },
     {
         "device": "echo",
@@ -7647,7 +8217,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "lesser",
-        "time": 2.9295761585235596
+        "duration": 2.9295761585235596
     },
     {
         "device": "echo",
@@ -7657,7 +8227,7 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "lexus",
-        "time": 1.5025677680969238
+        "duration": 1.5025677680969238
     },
     {
         "device": "echo",
@@ -7667,6 +8237,6 @@
         "trial": 1,
         "ipaddress": "192.168.137.14",
         "word": "tulsa",
-        "time": 2.0283823013305664
+        "duration": 2.0283823013305664
     }
 ]
