@@ -35,7 +35,7 @@ def words_ordered(file='cache/google-10000-english-no-swears.txt'):
     
 
 def generate_audio(generation_active_state, logging_active_state):
-    output_filename = f"./experiments/{name}_{experiment}_{trial_number}.{tld}/{name}_{tld}_{trial_number}_word_generations.csv"
+    output_filename = f"./experiments/{device_name}_{experiment}_{trial_number}.{tld}/{device_name}_{tld}_{trial_number}_word_generations.csv"
     word_file = open(output_filename, "w", buffering=1)
     word_file.write('word,start_time,end_time\n')
 
