@@ -8,3 +8,4 @@ pydub~=0.25.1
 simpleaudio~=1.0.4
 scapy~=2.4.5
 audiomentations~=0.16.0
+tqdm~=4.60.0
