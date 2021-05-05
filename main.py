@@ -10,11 +10,12 @@ ask_questions = config.questions
 device_name = config.device_name.lower()
 experiment = config.experiment
 trial_number = config.trial
+tld = config.tld
 word_list_filename = config.word_list_filename
 
 
 def log_activations(generation_active_state, logging_active_state):
-    detector = LightDetection(device_name, experiment, trial_number)
+    detector = LightDetection(device_name, experiment, trial_number, tld)
     
     while generation_active_state.value == 1:
         detector.log(logging_active_state)
@@ -34,7 +35,7 @@ def words_ordered(file='cache/google-10000-english-no-swears.txt'):
     
 
 def generate_audio(generation_active_state, logging_active_state):
-    output_filename = f"./light_logs/{device_name}/{experiment}/{device_name}_{experiment}_{trial_number}_word_generations.csv"
+    output_filename = f"./experiments/{name}_{experiment}_{trial_number}.{tld}/{name}_{tld}_{trial_number}_word_generations.csv"
     word_file = open(output_filename, "w", buffering=1)
     word_file.write('word,start_time,end_time\n')
 

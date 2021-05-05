@@ -5,13 +5,13 @@ import time
 class LightDetection:
     time_out = 3.0
     
-    def __init__(self, name, experiment, trial_number, port='/dev/ttyUSB0'):
+    def __init__(self, name, experiment, trial_number, tld, port='/dev/ttyUSB0'):
         self.port = port
         self.arduino = serial.Serial(port=port,
                                      timeout=LightDetection.time_out,
                                      baudrate='9600')
         
-        output_filename = f"./light_logs/{name}/{experiment}/{name}_{experiment}_{trial_number}_light_activations.csv"
+        output_filename = f"./experiments/{name}_{experiment}_{trial_number}.{tld}/{name}_{tld}_{trial_number}_light_activations.csv"
         self.output_file = open(output_filename, "w", buffering=1)
         
         # file heading
