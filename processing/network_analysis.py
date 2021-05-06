@@ -9,7 +9,7 @@ def collapse(time_list):
     privious_k = 0
     privious_size = 0
     for k, v in time_list.items():
-        if k == privious_k + 1:
+        if k == privious_k + 1 and v > 2000:
             privious_k = k
             privious_size += v
         else:
@@ -48,6 +48,7 @@ def main():
     result = {}
     
     df = pd.DataFrame(columns = ["start_time", "end_time", "packet_size"])
+    df_sec = pd.DataFrame(columns = ["time", "packet_size"])
     
     for packet in packets:
         if not IP in packet:
@@ -62,7 +63,7 @@ def main():
 
     for k, v in result.items():
         if v > threshold:
-            pass
+            df_sec = df_sec.append({"time": k, "packet_size": v}, ignore_index=True)
             #print("{}: {}".format(k, v))
     
     collapsed_result = collapse(result)
@@ -77,6 +78,7 @@ def main():
     print("Total activations: {}".format(count))
     if args.ofname != None:
         df.to_csv(args.ofname)
+        df_sec.to_csv("sec_" + args.ofname)
 
 
 if __name__ == "__main__":
