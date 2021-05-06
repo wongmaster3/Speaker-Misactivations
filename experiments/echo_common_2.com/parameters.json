@@ -1,0 +1,8 @@
+{
+  "device": "echo",
+  "dataset": "common",
+  "lang": "en",
+  "tld": "com",
+  "trial": 2,
+  "ipaddress": "192.168.137.14"
+}

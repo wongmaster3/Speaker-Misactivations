@@ -1,6 +1,7 @@
 import argparse
 import time
 from itertools import chain, islice, product, tee
+from tqdm import tqdm
 
 
 def get_defaults(parser):
@@ -64,7 +65,7 @@ def generated_sequence(config):
 if __name__ == '__main__':
     config = get_generation_arg_parser().parse_args()
     
-    for word in generated_sequence(config):
+    for word in tqdm(generated_sequence(config)):
         if config.has_prefix:
             prefixed_speech(word[1], word[0], lang=config.lang, tld=config.tld, name=config.name)
         else:

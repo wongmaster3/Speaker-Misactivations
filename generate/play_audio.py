@@ -21,6 +21,8 @@ def get_play_parser():
                     help='name of experiment')
     parser.add_argument('--trial', '-t', type=int, default=1,
                     help='trial number of experiment')
+    parser.add_argument('--tld', 
+                    help='accent of words being said')
     parser.add_argument('--questions', '-q', action='store_true',
                     help='determine whether to ask questions or not after misactivation')
     parser.add_argument('--word-list', '-w', dest='word_list_filename',
