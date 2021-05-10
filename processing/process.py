@@ -3,6 +3,7 @@ import argparse
 import os, fnmatch
 import json
 import copy
+import pandas as pd
 from collections import defaultdict
 
 
@@ -40,7 +41,7 @@ class Processor:
                 for time in times:
                     deep_copy = copy.deepcopy(new_trial)
                     deep_copy['word'] = word
-                    deep_copy['time'] = time
+                    deep_copy['duration'] = time
                     self.result_json.append(deep_copy)
         
         return self.result_json
@@ -116,4 +117,6 @@ if __name__ == '__main__':
     all_trials = processor.process_trials()
     with open('results/activations.json', 'w') as f:
         f.write(json.dumps(all_trials, indent=4))
+        df = pd.read_json('results/activations.json')
+        df.to_csv ('results/activations.csv', index = None)
     
