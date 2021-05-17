@@ -61,6 +61,10 @@ class Processor:
         last_added_word_index = None
 
         wt_index = 0
+        for row in wt_reader:
+            if row['word'] == iot_keyword:
+                total_valid_activation_count += 1
+            
         for row in lt_reader:
             light_activation_start_time = float(row['start_time'])
             light_activation_end_time = float(row['end_time'])
@@ -68,8 +72,6 @@ class Processor:
             wt_start_time = float(wt_reader[wt_index]['start_time'])
             wt_end_time = float(wt_reader[wt_index]['end_time'])
             while wt_index < len(wt_reader) and light_activation_start_time >= wt_end_time:
-                if wt_reader[wt_index]['word'] == iot_keyword:
-                    total_valid_activation_count += 1
                 wt_index += 1
                 if wt_index < len(wt_reader):
                     wt_start_time = float(wt_reader[wt_index]['start_time'])
@@ -95,14 +97,19 @@ class Processor:
             word = wt_reader[current_word_index]['word']
             prev_word = wt_reader[prev_word_index]['word']
             if prev_word != iot_keyword or (prev_word == iot_keyword and float(wt_reader[current_word_index]['start_time'])-float(wt_reader[prev_word_index]['end_time']) > 2.0):
-                if word in self.questions:
-                    prev_word_with_question = prev_word + ': ' + word
-                    misactivated_words[prev_word_with_question] = misactivated_words[prev_word]
-                    if len(misactivated_words[prev_word_with_question]) == 0:
-                        misactivated_words[prev_word_with_question].append((light_activation_end_time-light_activation_start_time))
-                    else:
-                        misactivated_words[prev_word_with_question][-1] += (light_activation_end_time-light_activation_start_time)
-                    del misactivated_words[prev_word]
+                # if word in self.questions:
+                #     prev_word_with_question = prev_word + ': ' + word
+                #     misactivated_words[prev_word_with_question] = misactivated_words[prev_word]
+                #     if len(misactivated_words[prev_word_with_question]) == 0:
+                #         misactivated_words[prev_word_with_question].append((light_activation_end_time-light_activation_start_time))
+                #     else:
+                #         misactivated_words[prev_word_with_question][-1] += (light_activation_end_time-light_activation_start_time)
+                #     del misactivated_words[prev_word]
+                # else:
+                # Need to check if trigger word activated within same time frame
+                if (last_added_word_index == None) or (last_added_word_index != current_word_index):
+                    misactivated_words[word].append(light_activation_end_time-light_activation_start_time)
+                    last_added_word_index = current_word_index
                 else:
                     # Need to check if trigger word activated within same time frame
                     if (last_added_word_index is None) or (last_added_word_index != current_word_index):
@@ -121,6 +128,5 @@ if __name__ == '__main__':
     with open('results/activations.json', 'w') as f:
         f.write(json.dumps(all_trials, indent=4))
         df = pd.read_json('results/activations.json')
-        df.to_csv ('results/activations.csv', index = None)
-
+        df.to_csv('results/activations.csv', index=None)
 
