@@ -1,10 +1,12 @@
-import csv
 import argparse
-import os, fnmatch
-import json
 import copy
-import pandas as pd
+import csv
+import fnmatch
+import json
+import os
 from collections import defaultdict
+
+import pandas as pd
 
 
 class Processor: 
@@ -13,7 +15,7 @@ class Processor:
         parser.add_argument('--path', '-fp', help='path to the experiment logs')
 
         self.config = parser.parse_args()
-        self.questions = set(['what_is_the_weather_today', 'what_is_food', 'how_are_you'])
+        self.questions = {'what_is_the_weather_today', 'what_is_food', 'how_are_you'}
         self.result_json = []
 
     def get_parser(self):
@@ -103,14 +105,15 @@ class Processor:
                     del misactivated_words[prev_word]
                 else:
                     # Need to check if trigger word activated within same time frame
-                    if (last_added_word_index == None) or (last_added_word_index != current_word_index):
+                    if (last_added_word_index is None) or (last_added_word_index != current_word_index):
                         misactivated_words[word].append(light_activation_end_time-light_activation_start_time)
                         last_added_word_index = current_word_index
                     else:
                         time_lst = misactivated_words[word]
                         time_lst[-1] += (light_activation_end_time-light_activation_start_time)
 
-        return (dict(misactivated_words), total_valid_activation_count)
+        return dict(misactivated_words), total_valid_activation_count
+
 
 if __name__ == '__main__':
     processor = Processor()
@@ -119,4 +122,5 @@ if __name__ == '__main__':
         f.write(json.dumps(all_trials, indent=4))
         df = pd.read_json('results/activations.json')
         df.to_csv ('results/activations.csv', index = None)
-    
+
+
